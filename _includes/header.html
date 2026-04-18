@@ -1,0 +1,42 @@
+<header class="site-header">
+  <div class="header-container">
+    <!-- Logo / Brand -->
+    <div class="brand">
+      <a href="{{ "/" | relative_url }}" class="logo-link">
+        <img src="{{ site.author.avatar | relative_url }}" alt="{{ site.author.name }}" class="header-avatar">
+        <span class="site-name">{{ site.title }}</span>
+      </a>
+    </div>
+    
+    <!-- Navigation -->
+    <nav class="main-nav">
+      <ul class="nav-list">
+        {% for item in site.navigation %}
+        <li class="nav-item">
+          <a href="{{ item.url | relative_url }}" class="nav-link {% if page.url == item.url %}active{% endif %}">
+            {{ item.title }}
+          </a>
+        </li>
+        {% endfor %}
+      </ul>
+    </nav>
+    
+    <!-- Mobile Menu Toggle -->
+    <button class="mobile-menu-toggle" aria-label="Toggle menu">
+      <span class="hamburger"></span>
+    </button>
+  </div>
+</header>
+
+<!-- Mobile Navigation -->
+<nav class="mobile-nav">
+  <ul class="mobile-nav-list">
+    {% for item in site.navigation %}
+    <li class="mobile-nav-item">
+      <a href="{{ item.url | relative_url }}" class="mobile-nav-link {% if page.url == item.url %}active{% endif %}">
+        {{ item.title }}
+      </a>
+    </li>
+    {% endfor %}
+  </ul>
+</nav>
