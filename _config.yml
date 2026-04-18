@@ -127,7 +127,9 @@ defaults:
 navigation:
   - title: "首页"
     url: "/"
-  - title: "文章"
+  - title: "AI人才战略"
+    url: "/posts/"
+  - title: "AI转型咨询"
     url: "/posts/"
   - title: "AI战略官培训"
     url: "/training/"
@@ -136,14 +138,6 @@ navigation:
   - title: "联系"
     url: "/contact/"
 
-
-
-# 分类
-# categories:
-#   - ai-talent-strategy
-  # - ai-transformation
-  # - ai-governance
-  # - caio-recruitment
 
 # 标签
 tags:
