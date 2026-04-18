@@ -1,0 +1,21 @@
+title: "乔治AI观察 | AI人才战略专家"
+subtitle: "AI人才战略 · AI转型咨询 · AI战略官培训 · AI组织培训"
+description: "郭雁冰（George Guo），CGL集团战略官兼高级副总裁，专注AI高端人才猎寻与企业AI化转型。"
+keywords: "AI人才战略, AI转型咨询, AI战略官, AI组织培训, CAIO, 首席AI官, 郭雁冰"
+author:
+  name: "郭雁冰"
+  display_name: "郭雁冰 (George Guo)"
+  bio: "CGL集团战略官兼高级副总裁"
+  email: "georgeguo@wearecgl.com"
+  email_alt: "di3zongdui@163.com"
+  phone: "+86 186-2111-2052"
+  linkedin: "https://www.linkedin.com/in/gg6561771/" 
+  github: "https://github.com/di3zongdui" # 账号存在，可正常访问
+url: "https://di3zongdui.github.io" # 部署生效后可访问
+baseurl: ""
+markdown: kramdown
+permalink: /:year/:month/:day/:title/
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
