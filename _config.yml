@@ -128,15 +128,16 @@ navigation:
   - title: "首页"
     url: "/"
   - title: "AI人才战略"
-    url: "/category/ai-talent-strategy/"
+    url: "/posts/"  # 改成文章列表
   - title: "AI转型咨询"
-    url: "/category/ai-transformation/"
+    url: "/posts/"
   - title: "AI战略官培训"
     url: "/training/"
   - title: "关于我"
     url: "/about/"
   - title: "联系"
     url: "/contact/"
+
 
 # 分类
 categories:
