@@ -1,21 +1,183 @@
-title: "乔治AI观察 | AI人才战略专家"
-subtitle: "AI人才战略 · AI转型咨询 · AI战略官培训 · AI组织培训"
-description: "郭雁冰（George Guo），CGL集团战略官兼高级副总裁，专注AI高端人才猎寻与企业AI化转型。"
-keywords: "AI人才战略, AI转型咨询, AI战略官, AI组织培训, CAIO, 首席AI官, 郭雁冰"
+# Jekyll 站点配置
+# 站点: 乔治AI观察 - di3zongdui.github.io
+# 作者: 郭雁冰 (George Guo)
+# 用户名: di3zongdui
+
+# 基础配置
+title: "乔治AI观察 | George AI Insights"
+subtitle: "AI人才战略专家 · AI转型咨询顾问 · AI战略官培训"
+description: "郭雁冰（George Guo），CGL集团战略官兼高级副总裁，专注AI高端人才猎寻与企业AI化转型。提供AI人才战略咨询、AI转型咨询、AI战略官培训、AI组织培训服务。"
+keywords: "AI人才战略, AI转型咨询, AI战略官, AI组织培训, CAIO, 首席AI官, 郭雁冰, 乔治AI观察, AI独立董事, 企业AI化转型"
+
+# 作者信息
 author:
   name: "郭雁冰"
   display_name: "郭雁冰 (George Guo)"
-  bio: "CGL集团战略官兼高级副总裁"
+  bio: "CGL集团战略官兼高级副总裁，专注AI高端人才猎寻与企业AI化转型"
   email: "georgeguo@wearecgl.com"
   email_alt: "di3zongdui@163.com"
   phone: "+86 186-2111-2052"
-  linkedin: "https://www.linkedin.com/in/gg6561771/" 
-  github: "https://github.com/di3zongdui" # 账号存在，可正常访问
-url: "https://di3zongdui.github.io" # 部署生效后可访问
+  linkedin: "https://www.linkedin.com/in/gg6561771/"
+  twitter: "https://twitter.com/GeorgeAIInsight"
+  github: "https://github.com/di3zongdui"
+  wechat: "乔治AI观察"
+  avatar: "/assets/images/avatar.jpg"
+  company: "CGL集团"
+  title: "战略官兼高级副总裁"
+
+# 社交链接
+social:
+  linkedin: "https://www.linkedin.com/in/gg6561771/"
+  twitter: "https://twitter.com/GeorgeAIInsight"
+  github: "https://github.com/di3zongdui"
+  wechat: "乔治AI观察"
+
+# 站点配置
+url: "https://di3zongdui.github.io"
 baseurl: ""
+repository: "di3zongdui/di3zongdui.github.io"
+
+# 时区和语言
+timezone: "Asia/Shanghai"
+lang: "zh-CN"
+locale: "zh_CN"
+
+# 构建设置
 markdown: kramdown
+highlighter: rouge
 permalink: /:year/:month/:day/:title/
+
+# 插件
 plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
+  - jekyll-paginate
+  - jekyll-archives
+
+# SEO插件配置
+jekyll-seo-tag:
+  social:
+    name: "郭雁冰 George Guo"
+    links:
+      - https://www.linkedin.com/in/gg6561771/
+      - https://twitter.com/GeorgeAIInsight/
+      - https://github.com/di3zongdui
+
+# 分页
+paginate: 10
+paginate_path: "/page/:num/"
+
+# 归档
+jekyll-archives:
+  enabled:
+    - categories
+    - tags
+    - year
+    - month
+  layout: archive
+  permalinks:
+    year: '/:year/'
+    month: '/:year/:month/'
+    day: '/:year/:month/:day/'
+    tag: '/tag/:name/'
+    category: '/category/:name/'
+
+# 集合
+collections:
+  guides:
+    output: true
+    permalink: /:collection/:name/
+  reports:
+    output: true
+    permalink: /:collection/:name/
+  pages:
+    output: true
+    permalink: /:name/
+
+# 默认Front Matter
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      author: "郭雁冰"
+      comments: true
+      share: true
+      related: true
+  
+  - scope:
+      path: ""
+      type: "guides"
+    values:
+      layout: "page"
+      author: "郭雁冰"
+      sidebar: true
+  
+  - scope:
+      path: ""
+      type: "reports"
+    values:
+      layout: "page"
+      author: "郭雁冰"
+      sidebar: true
+
+# 导航菜单
+navigation:
+  - title: "首页"
+    url: "/"
+  - title: "AI人才战略"
+    url: "/category/ai-talent-strategy/"
+  - title: "AI转型咨询"
+    url: "/category/ai-transformation/"
+  - title: "AI战略官培训"
+    url: "/training/"
+  - title: "关于我"
+    url: "/about/"
+  - title: "联系"
+    url: "/contact/"
+
+# 分类
+categories:
+  - ai-talent-strategy
+  - ai-transformation
+  - ai-governance
+  - caio-recruitment
+
+# 标签
+tags:
+  - CAIO
+  - 首席AI官
+  - AI人才战略
+  - AI转型咨询
+  - AI战略官
+  - AI组织培训
+  - AI独立董事
+  - 企业AI化转型
+
+# 排除文件
+exclude:
+  - README.md
+  - LICENSE
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+
+# 包含文件
+include:
+  - _pages
+  - _guides
+  - _reports
+
+# 主题
+theme: minima
+
+# 自定义变量
+custom:
+  company: "CGL集团"
+  company_url: "https://www.wearecgl.com"
+  wechat_qrcode: "/assets/images/wechat-qr.jpg"
+  analytics: ""
+  hotline: "+86 186-2111-2052"
+  username: "di3zongdui"
