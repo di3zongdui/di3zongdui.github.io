@@ -18,7 +18,6 @@ author:
   email_alt: "di3zongdui@163.com"
   phone: "+86 186-2111-2052"
   linkedin: "https://www.linkedin.com/in/gg6561771/"
-  twitter: "https://twitter.com/GeorgeAIInsight"
   github: "https://github.com/di3zongdui"
   wechat: "乔治AI观察"
   avatar: "/assets/images/avatar.jpg"
@@ -28,7 +27,6 @@ author:
 # 社交链接
 social:
   linkedin: "https://www.linkedin.com/in/gg6561771/"
-  twitter: "https://twitter.com/GeorgeAIInsight"
   github: "https://github.com/di3zongdui"
   wechat: "乔治AI观察"
 
@@ -127,16 +125,15 @@ defaults:
 navigation:
   - title: "首页"
     url: "/"
-  - title: "AI人才战略"
+  - title: "文章"
     url: "/posts/"
-  - title: "AI转型咨询"
-    url: "/posts/"
-  - title: "AI战略官培训"
+  - title: "培训"
     url: "/training/"
   - title: "关于我"
     url: "/about/"
   - title: "联系"
     url: "/contact/"
+
 
 
 # 标签
