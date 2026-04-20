@@ -597,6 +597,204 @@ img {
 }
 
 /* ===================================
+   Posts Page
+   =================================== */
+.posts-page {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.page-header {
+  margin-bottom: var(--spacing-2xl);
+  padding-bottom: var(--spacing-xl);
+  border-bottom: 2px solid var(--border-color);
+}
+
+.page-header h1 {
+  font-size: var(--font-size-3xl);
+  color: var(--text-primary);
+  margin-bottom: var(--spacing-sm);
+}
+
+.page-header .subtitle {
+  color: var(--text-secondary);
+  font-size: var(--font-size-base);
+}
+
+.posts-list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-2xl);
+}
+
+.post-item {
+  padding-bottom: var(--spacing-2xl);
+  border-bottom: 1px solid var(--border-color);
+}
+
+.post-item:last-child {
+  border-bottom: none;
+}
+
+.post-item .post-meta {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-md);
+  margin-bottom: var(--spacing-sm);
+  font-size: var(--font-size-sm);
+  color: var(--text-secondary);
+}
+
+.post-date {
+  color: var(--text-secondary);
+}
+
+.post-category {
+  background-color: var(--bg-tertiary);
+  padding: 2px 10px;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  color: var(--primary-color);
+}
+
+.post-item .post-title {
+  font-size: var(--font-size-2xl);
+  margin-bottom: var(--spacing-sm);
+  line-height: 1.4;
+}
+
+.post-item .post-title a {
+  color: var(--text-primary);
+  text-decoration: none;
+}
+
+.post-item .post-title a:hover {
+  color: var(--primary-color);
+}
+
+.post-excerpt {
+  color: var(--text-secondary);
+  line-height: 1.7;
+  margin-bottom: var(--spacing-md);
+}
+
+.read-more {
+  display: inline-block;
+  color: var(--primary-color);
+  font-weight: 500;
+  font-size: var(--font-size-sm);
+}
+
+.read-more:hover {
+  text-decoration: underline;
+}
+
+.no-posts {
+  color: var(--text-secondary);
+  text-align: center;
+  padding: var(--spacing-2xl) 0;
+}
+
+/* ===================================
+   Post Full (Article Page)
+   =================================== */
+.post-full {
+  max-width: 780px;
+  margin: 0 auto;
+}
+
+.post-full .post-header {
+  margin-bottom: var(--spacing-2xl);
+  padding-bottom: var(--spacing-xl);
+  border-bottom: 2px solid var(--border-color);
+}
+
+.post-full .post-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--spacing-md);
+  margin-bottom: var(--spacing-lg);
+  font-size: var(--font-size-sm);
+  color: var(--text-secondary);
+}
+
+.post-full .post-title {
+  font-size: var(--font-size-3xl);
+  line-height: 1.3;
+  margin-bottom: var(--spacing-md);
+}
+
+.post-full .post-description {
+  font-size: var(--font-size-lg);
+  color: var(--text-secondary);
+  line-height: 1.6;
+}
+
+.post-full .post-content {
+  font-size: var(--font-size-base);
+  line-height: 1.8;
+  color: var(--text-primary);
+}
+
+.post-full .post-content h2 {
+  font-size: var(--font-size-2xl);
+  margin-top: var(--spacing-2xl);
+  margin-bottom: var(--spacing-md);
+  padding-bottom: var(--spacing-sm);
+  border-bottom: 1px solid var(--border-color);
+}
+
+.post-full .post-content h3 {
+  font-size: var(--font-size-xl);
+  margin-top: var(--spacing-xl);
+  margin-bottom: var(--spacing-sm);
+}
+
+.post-footer {
+  margin-top: var(--spacing-2xl);
+  padding-top: var(--spacing-xl);
+  border-top: 2px solid var(--border-color);
+}
+
+.post-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--spacing-sm);
+  margin-bottom: var(--spacing-xl);
+}
+
+.tag {
+  background-color: var(--bg-tertiary);
+  color: var(--text-secondary);
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-size: var(--font-size-sm);
+}
+
+.post-share {
+  background-color: var(--bg-secondary);
+  padding: var(--spacing-lg);
+  border-radius: var(--border-radius);
+  margin-bottom: var(--spacing-xl);
+}
+
+.post-share p {
+  margin-bottom: var(--spacing-sm);
+  font-size: var(--font-size-sm);
+}
+
+.back-to-posts {
+  display: inline-block;
+  color: var(--primary-color);
+  font-size: var(--font-size-sm);
+  font-weight: 500;
+}
+
+.back-to-posts:hover {
+  text-decoration: underline;
+}
+
+/* ===================================
    Responsive Adjustments
    =================================== */
 @media (max-width: 767px) {
