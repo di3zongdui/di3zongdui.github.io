@@ -2,7 +2,7 @@
 layout: post
 title: "松下任命CAIO背后：2026年首席AI官成标配，谁来担任？怎么找？"
 description: "松下任命CAIO背后，2026年首席AI官成标配。本文分析CAIO的岗位职责、胜任力模型，以及企业如何招聘和培养首席AI官。"
-author: "郭雁冰"
+author: "郭雁冰 (George Guo)"
 date: 2026-04-18
 categories:
   - AI人才战略
@@ -15,10 +15,17 @@ tags:
   - AI战略官
   - AI组织培训
 seo:
-  keywords: "CAIO招聘, 首席AI官, AI人才战略, AI转型咨询, 松下CAIO"
+  keywords: "CAIO招聘, 首席AI官, AI人才战略, AI转型咨询, 松下CAIO, CAIO recruitment, Chief AI Officer, AI talent strategy"
 ---
 
+<!-- SEO: CAIO recruitment, Chief AI Officer, AI Talent Strategy, AI Transformation, Panasonic CAIO -->
 <!-- SEO关键词：CAIO招聘、首席AI官、AI人才战略、AI转型咨询、AI战略官培训、AI独立董事 -->
+
+> **English Summary**
+>
+> In April 2026, Panasonic appointed its first Chief AI Officer (CAIO) — joining HSBC, KRAFTON, and other global giants who have already institutionalized the role. This article by **George Guo (郭雁冰)**, Chief Strategy Officer at CGL Group, analyzes: (1) why every enterprise now needs a CAIO, (2) the **George CAIO 5-Dimension Competency Model** (Tech Insight × Strategic Thinking × Business Understanding × Governance × Change Leadership), (3) candidate profiles and compensation benchmarks (up to HKD 24M at HSBC), and (4) how to recruit and develop a CAIO. Contact: georgeguo@wearecgl.com
+
+---
 
 # 松下任命CAIO背后：2026年首席AI官成标配，谁来担任？怎么找？
 
@@ -218,16 +225,19 @@ CAIO = AI战略官 + AI治理者 + AI变革推动者
 
 ---
 
-## 关于作者
+## About the Author / 关于作者
 
-**郭雁冰 (George Guo)**
+**George Guo (郭雁冰)**
+
+Chief Strategy Officer & SVP at CGL Group, specializing in AI executive search and **enterprise AI transformation consulting**.
 
 CGL集团战略官兼高级副总裁，专注AI高端人才猎寻与**企业AI化转型咨询**。
 
 - 📧 georgeguo@wearecgl.com
 - 📧 di3zongdui@163.com
 - 💼 [LinkedIn](https://www.linkedin.com/in/gg6561771/)
+- 🌐 [di3zongdui.github.io](https://di3zongdui.github.io)
 
 ---
 
-*本文首发于乔治AI观察，转载需授权。*
+*Originally published on George AI Insights. Reproduction requires authorization. / 本文首发于乔治AI观察，转载需授权。*
