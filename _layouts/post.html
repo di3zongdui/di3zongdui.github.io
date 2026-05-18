@@ -1,0 +1,45 @@
+---
+layout: default
+---
+
+<article class="post-full">
+  <header class="post-header">
+    <div class="post-meta">
+      <span class="post-date">{{ page.date | date: "%Y年%m月%d日" }}</span>
+      {% if page.author %}
+      <span class="post-author">{{ page.author }}</span>
+      {% endif %}
+      {% if page.categories %}
+      <span class="post-category">{{ page.categories | join: " · " }}</span>
+      {% endif %}
+    </div>
+    <h1 class="post-title">{{ page.title }}</h1>
+    {% if page.description %}
+    <p class="post-description">{{ page.description }}</p>
+    {% endif %}
+  </header>
+
+  <div class="post-content">
+    {{ content }}
+  </div>
+
+  <footer class="post-footer">
+    <div class="post-tags">
+      {% if page.tags %}
+      {% for tag in page.tags %}
+      <span class="tag">{{ tag }}</span>
+      {% endfor %}
+      {% endif %}
+    </div>
+
+    <div class="post-share">
+      <p>如需咨询 CAIO 招聘或 AI 人才战略，欢迎联系：</p>
+      <p>📧 <a href="mailto:georgeguo@wearecgl.com">georgeguo@wearecgl.com</a></p>
+      <p>🔗 <a href="https://www.linkedin.com/in/gg6561771/" target="_blank">LinkedIn: George Guo</a></p>
+    </div>
+
+    <div class="post-nav">
+      <a href="/posts/" class="back-to-posts">← 返回文章列表</a>
+    </div>
+  </footer>
+</article>
