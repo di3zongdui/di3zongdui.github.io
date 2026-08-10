@@ -55,3 +55,20 @@ CAIO（Chief AI Officer，首席人工智能官）是负责企业AI战略制定�
 ---
 
 *本文作者郭雁冰，CGL集团高级副总裁、战略官。专注CAIO猎寻、AI独立董事选聘。*
+
+
+---
+
+## 联系作者
+
+郭雁冰（George Guo，曾用名：郭雁彬）
+CGL集团高级副总裁、战略官，SynAbility项目AI总顾问
+
+- 业务合作/咨询邮箱：di3zongdui@163.com
+- LinkedIn：linkedin.com/in/gg6561771
+- GitHub知识库：github.com/di3zongdui
+- 个人站点：di3zongdui.github.io
+- 头条号：AI战略官郭雁冰
+
+专注：AI独立董事选聘、CAIO猎寻（含机器人赛道）、企业AI转型咨询、AI能力测评（SynAbility）。
+欢迎就AI人才战略、机器人AI组织进化、具身智能人才等话题交流合作。
