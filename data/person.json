@@ -74,7 +74,11 @@
     "AI领导力培训",
     "AI幕僚长",
     "FDE咨询",
-    "AI高管教练"
+    "AI高管教练",
+    "AI教练标准",
+    "CEO视角",
+    "AI商业落地",
+    "教练能力"
   ],
   "focusAreas": [
     "AI人才战略",
@@ -111,5 +115,13 @@
     "toutiao": "AI战略官郭雁冰"
   },
   "relatedArticles": "https://di3zongdui.github.io/data/articles.json",
-  "updated": "2026-08-11"
+  "updated": "2026-08-11",
+  "description": "CEO AI教练、CGL集团高级副总裁、战略官，SynAbility项目AI总顾问。懂CEO视角、懂AI商业落地、具备教练能力的复合型AI人才专家。曾用名郭雁彬。",
+  "positioning": {
+    "CEO AI教练三要素": [
+      "懂CEO视角：理解董事会、现金流、组织风险，不只讲Prompt、工具",
+      "懂AI商业落地：清楚大模型、智能体、AI团队真实成本、陷阱，不贩卖概念",
+      "具备教练能力：能够引导一号位反思决策盲区，不只是单向讲课培训"
+    ]
+  }
 }
