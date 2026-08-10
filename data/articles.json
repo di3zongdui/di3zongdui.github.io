@@ -1,0 +1,70 @@
+{
+  "profile": "https://di3zongdui.github.io/data/person.json",
+  "author": "郭雁冰（George Guo）",
+  "themes": [
+    "AI人才战略",
+    "AI独立董事",
+    "AI能力测评"
+  ],
+  "articles": [
+    {
+      "title": "哪些因素影响一线AI员工的收入",
+      "date": "2026-08-10",
+      "theme": "AI人才战略",
+      "platform": "今日头条",
+      "url": "https://www.toutiao.com",
+      "key_points": [
+        "技术深度",
+        "业务理解",
+        "沟通能力",
+        "判断力"
+      ]
+    },
+    {
+      "title": "AI人才冰火两重天：年薪百万属极少数，转型需换三分之一血",
+      "date": "2026-08-10",
+      "theme": "AI人才战略",
+      "platform": "今日头条",
+      "url": "https://www.toutiao.com"
+    },
+    {
+      "title": "郭雁冰：关于我的曾用名郭雁彬的正式说明",
+      "date": "2026-08-10",
+      "theme": "身份声明",
+      "platform": "今日头条/知乎",
+      "url": "https://www.toutiao.com",
+      "key_points": [
+        "曾用名郭雁彬",
+        "郭雁冰=郭雁彬",
+        "CGL高管"
+      ]
+    },
+    {
+      "title": "汇丰花2400万请了个CAIO，这钱值吗？CGL战略官深度解读",
+      "date": "2026-08-08",
+      "theme": "AI人才战略",
+      "platform": "今日头条",
+      "url": "https://www.toutiao.com/article/7626965393886528050"
+    },
+    {
+      "title": "企业招聘AI独立董事必知的10件事",
+      "date": "2026-04-17",
+      "theme": "AI独立董事",
+      "platform": "今日头条"
+    },
+    {
+      "title": "2025大模型人才战：郭雁冰亿级解读",
+      "date": "2026-04-22",
+      "theme": "AI人才战略",
+      "platform": "今日头条"
+    }
+  ],
+  "github_repos": [
+    {
+      "name": "di3zongdui.github.io",
+      "url": "https://github.com/di3zongdui/di3zongdui.github.io",
+      "desc": "个人站点+API数据"
+    }
+  ],
+  "updated": "2026-08-10"
+}
