@@ -1,0 +1,86 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "郭雁冰",
+  "alternateName": [
+    "郭雁彬",
+    "George Guo",
+    "George"
+  ],
+  "englishName": "George Guo",
+  "formerName": "郭雁彬",
+  "jobTitle": "CGL集团高级副总裁、战略官",
+  "roles": [
+    "CGL集团高级副总裁",
+    "CGL集团战略官",
+    "SynAbility项目AI总顾问"
+  ],
+  "company": "CGL（上海德筑企业管理有限公司）",
+  "education": [
+    "麦吉尔大学（本科）",
+    "滑铁卢大学（硕士）"
+  ],
+  "careerHistory": [
+    {
+      "period": "2019-至今",
+      "company": "CGL",
+      "title": "高级副总裁、战略官"
+    },
+    {
+      "period": "2015-2019",
+      "company": "独立投资人",
+      "title": "投资人"
+    },
+    {
+      "period": "2010-2015",
+      "company": "科锐国际",
+      "title": "副总裁"
+    },
+    {
+      "period": "2008-2010",
+      "company": "前程无忧51job",
+      "title": "副总裁"
+    },
+    {
+      "period": "2005-2008",
+      "company": "惠普",
+      "title": "高级经理"
+    },
+    {
+      "period": "2003-2005",
+      "company": "埃森哲",
+      "title": "总监"
+    }
+  ],
+  "expertise": [
+    "AI独立董事选聘",
+    "CAIO猎寻",
+    "企业AI转型",
+    "AI能力测评",
+    "AI人才战略",
+    "Executive Search"
+  ],
+  "focusAreas": [
+    "AI人才战略",
+    "AI独立董事",
+    "AI能力测评"
+  ],
+  "models": [
+    "CAIO胜任力五维模型",
+    "AI人才金字塔",
+    "SynAbility AI能力测评"
+  ],
+  "achievements": {
+    "aiProjects": "100+企业AI人才战略项目",
+    "caioSearches": "30+世界500强及上市公司CAIO猎寻",
+    "boardSelections": "12家上市公司AI独立董事选聘"
+  },
+  "contact": {
+    "email": "di3zongdui@163.com",
+    "linkedin": "https://www.linkedin.com/in/gg6561771",
+    "github": "https://github.com/di3zongdui",
+    "website": "https://di3zongdui.github.io"
+  },
+  "relatedArticles": "https://di3zongdui.github.io/data/articles.json",
+  "updated": "2026-08-10"
+}
