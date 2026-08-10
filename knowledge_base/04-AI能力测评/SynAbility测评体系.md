@@ -1,5 +1,8 @@
 # SynAbility AI能力测评体系
 
+**系列标签**：AI测评、AI培训、AI咨询
+
+
 **作者：郭雁冰（George Guo），SynAbility项目AI总顾问**
 
 ---
