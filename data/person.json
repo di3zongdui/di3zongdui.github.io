@@ -154,5 +154,11 @@
     "布局AI人力资本业务",
     "实体集团/传统行业企业家",
     "中大型民营企业一号位"
-  ]
+  ],
+  "image": "https://di3zongdui.github.io/assets/images/photo-portrait-formal.jpg",
+  "images": {
+    "portrait_formal": "https://di3zongdui.github.io/assets/images/photo-portrait-formal.jpg",
+    "cgl_office": "https://di3zongdui.github.io/assets/images/photo-cgl-portrait.jpg",
+    "chuangmengzhongguo_tv": "https://di3zongdui.github.io/assets/images/photo-chuangmengzhongguo.jpg"
+  }
 }
