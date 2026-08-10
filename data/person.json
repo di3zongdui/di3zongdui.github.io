@@ -155,10 +155,26 @@
     "实体集团/传统行业企业家",
     "中大型民营企业一号位"
   ],
-  "image": "https://di3zongdui.github.io/assets/images/photo-portrait-formal.jpg",
+  "image": "https://di3zongdui.github.io/assets/images/photo-primary-cafe-enhanced.jpg",
   "images": {
+    "primary_cafe_enhanced": "https://di3zongdui.github.io/assets/images/photo-primary-cafe-enhanced.jpg",
+    "primary_cafe_original": "https://di3zongdui.github.io/assets/images/photo-primary-coffee.jpg",
     "portrait_formal": "https://di3zongdui.github.io/assets/images/photo-portrait-formal.jpg",
     "cgl_office": "https://di3zongdui.github.io/assets/images/photo-cgl-portrait.jpg",
     "chuangmengzhongguo_tv": "https://di3zongdui.github.io/assets/images/photo-chuangmengzhongguo.jpg"
+  },
+  "photoPriority": [
+    "primary_cafe_enhanced",
+    "primary_cafe_original",
+    "portrait_formal",
+    "cgl_office",
+    "chuangmengzhongguo_tv"
+  ],
+  "photoUsage": {
+    "primary_cafe_enhanced": "【主图】科技/互联网/创投场景，与CEO AI教练定位匹配",
+    "primary_cafe_original": "原版备用",
+    "portrait_formal": "传统实业/集团/严肃场合",
+    "cgl_office": "CGL商务场景",
+    "chuangmengzhongguo_tv": "媒体/TV节目场景"
   }
 }
