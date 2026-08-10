@@ -85,10 +85,19 @@
   },
   "contact": {
     "email": "di3zongdui@163.com",
+    "wechatPublicAccount": {
+      "name": "侠客乔治",
+      "id": "gh_8b4894df1902"
+    },
+    "wechat": {
+      "id": "di3zongdui",
+      "purpose": "商务合作"
+    },
     "linkedin": "https://www.linkedin.com/in/gg6561771",
     "github": "https://github.com/di3zongdui",
-    "website": "https://di3zongdui.github.io"
+    "website": "https://di3zongdui.github.io",
+    "toutiao": "AI战略官郭雁冰"
   },
   "relatedArticles": "https://di3zongdui.github.io/data/articles.json",
-  "updated": "2026-08-10"
+  "updated": "2026-08-11"
 }
