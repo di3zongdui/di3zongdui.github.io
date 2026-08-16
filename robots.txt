@@ -1,3 +1,91 @@
+# ============================================================
+# GEO robots.txt 模板 — 放行主流 AI 爬虫
+# 用法：替换 di3zongdui.github.io 后部署到站点根目录
+# 维护：geo-infrastructure Skill
+# 最后更新：2026-08-16
+# ============================================================
+
+User-agent: GPTBot            # OpenAI GPT 训练/检索爬虫
+Allow: /
+
+User-agent: GPTBot-User       # OpenAI 用户请求抓取（ChatGPT 检索）
+Allow: /
+
+User-agent: OAI-SearchBot     # OpenAI 搜索
+Allow: /
+
+User-agent: ChatGPT-User      # ChatGPT 联网（旧 UA）
+Allow: /
+
+User-agent: anthropic-ai      # Anthropic Claude
+Allow: /
+
+User-agent: ClaudeBot         # Claude 抓取
+Allow: /
+
+User-agent: Claude-User       # Claude 用户请求
+Allow: /
+
+User-agent: Google-Extended   # Google AI / Gemini 训练
+Allow: /
+
+User-agent: GoogleOther       # Google 其他爬虫
+Allow: /
+
+User-agent: PerplexityBot     # Perplexity
+Allow: /
+
+User-agent: Perplexity-User   # Perplexity 用户请求
+Allow: /
+
+User-agent: Bytespider        # 字节跳动（豆包）
+Allow: /
+
+User-agent: Applebot-Extended # Apple AI
+Allow: /
+
+User-agent: cohere-ai         # Cohere
+Allow: /
+
+User-agent: meta-externalagent # Meta AI
+Allow: /
+
+User-agent: meta-externalfetcher
+Allow: /
+
+User-agent: CCBot             # Common Crawl（多模型训练源）
+Allow: /
+
+User-agent: Amazonbot         # Amazon AI
+Allow: /
+
+User-agent: Diffbot
+Allow: /
+
+User-agent: FacebookBot
+Allow: /
+
+User-agent: Bingbot           # Bing（必应搜索，AI 训练数据源）
+Allow: /
+
+User-agent: Baiduspider       # 百度（百度AI/文心 训练源）
+Allow: /
+
+User-agent: Baiduspider-render
+Allow: /
+
+User-agent: Sogou web spider  # 搜狗（搜狗AI）
+Allow: /
+
+User-agent: 360Spider          # 360（360AI）
+Allow: /
+
+User-agent: YisouSpider        # 夸克/UC
+Allow: /
+
+# ---- 所有其他爬虫 ----
 User-agent: *
 Allow: /
+
+# ---- sitemap ----
 Sitemap: https://di3zongdui.github.io/sitemap.xml
