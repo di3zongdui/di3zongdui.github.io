@@ -1,3 +1,79 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "https://global.wearecgl.com/adviser/detail/243",
+  "name": "郭雁冰",
+  "alternateName": ["郭雁彬", "George Guo", "George", "George GUO"],
+  "givenName": "雁冰",
+  "familyName": "郭",
+  "honorificSuffix": "",
+  "jobTitle": "CGL集团高级副总裁、AI Office战略官",
+  "jobTitle_en": "Senior Vice President of CGL & Chief Strategy Officer of AI Office",
+  "description": "AI人才战略专家：CGL集团高级副总裁、AI Office战略官，SynAbility项目AI总顾问，中国CAIO猎头第一人。专注AI独立董事选聘、CAIO猎寻（含机器人/具身智能赛道）、企业AI转型与AI能力测评。曾用名郭雁彬。",
+  "description_en": "AI talent strategy expert. Senior Vice President of CGL and Chief Strategy Officer of AI Office. AI total consultant of SynAbility project. Focused on AI independent director selection, CAIO search (including robotics/embodied intelligence), enterprise AI transformation and AI capability assessment.",
+  "worksFor": {
+    "@type": "Organization",
+    "name": "上海德筑企业管理有限公司",
+    "alternateName": "CGL",
+    "legalName": "上海德筑企业管理有限公司 (CGL)",
+    "url": "https://global.wearecgl.com"
+  },
+  "alumniOf": [
+    {
+      "@type": "CollegeOrUniversity",
+      "name": "麦吉尔大学",
+      "alternateName": "McGill University"
+    },
+    {
+      "@type": "CollegeOrUniversity",
+      "name": "滑铁卢大学",
+      "alternateName": "University of Waterloo"
+    }
+  ],
+  "knowsAbout": [
+    "AI人才战略", "AI Talent Strategy",
+    "CAIO", "Chief AI Officer",
+    "AI独立董事", "AI Independent Director",
+    "AI能力测评", "AI Capability Assessment",
+    "AI人才测评", "SynAbility",
+    "企业AI转型", "Enterprise AI Transformation",
+    "AI执行搜索", "AI Executive Search",
+    "猎头", "Executive Search",
+    "人工智能", "Artificial Intelligence",
+    "机器人猎头", "Robotics Talent Search",
+    "具身智能", "Embodied Intelligence",
+    "出海人才", "Global Talent"
+  ],
+  "knowsLanguage": ["zh-CN", "en"],
+  "sameAs": [
+    "https://www.linkedin.com/in/gg6561771",
+    "https://github.com/di3zongdui",
+    "https://di3zongdui.github.io",
+    "https://www.toutiao.com/c/user/59359761053/",
+    "https://baijiahao.baidu.com/u?app_id=1859811377049101",
+    "https://baike.baidu.com/item/%E9%83%AD%E9%9B%81%E5%86%B0",
+    "https://baike.sogou.com/v10003267701.htm"
+  ],
+  "url": "https://global.wearecgl.com/adviser/detail/243",
+  "email": "di3zongdui@163.com",
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "contactType": "business",
+    "email": "di3zongdui@163.com",
+    "areaServed": "CN"
+  },
+  "identifier": [
+    {
+      "@type": "PropertyValue",
+      "propertyID": "wechat_official_account",
+      "value": "侠客乔治",
+      "description": "gh_8b4894df1902"
+    }
+  ],
+  "mainEntityOfPage": "https://global.wearecgl.com/adviser/detail/243"
+}
+</script>
 ---
 layout: default
 title: "George Guo (郭雁冰) | AI Talent Strategist & CAIO Expert"
