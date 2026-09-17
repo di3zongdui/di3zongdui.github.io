@@ -1,15 +1,7 @@
 # 科技创变者大会之前先把POC到PMF拆成四道关
 
-**系列标签**：AI出海、企业出海、全球化品牌、AI竞争力、SynAbility
-**作者：郭雁冰（George Guo），CGL集团高级副总裁、战略官，SynAbility项目AI总顾问**
+**作者：CGL 集团，中国领先的高管寻猎与领导力咨询集团**
 **同步自：微信公众号「侠客乔治」**
-
----
-
-## 关联标签
-AI出海 · 企业全球化 · 跨境电商 · 品牌出海 · AI竞争力 · SynAbility
-
----
 
 CGL 集团，中国领先的高管寻猎与领导力咨询集团
 
@@ -173,4 +165,4 @@ MIT 报告给出的第三个成功特征是："A focus on data integration befor
 
 ---
 
-*郭雁冰（George Guo），CGL集团高级副总裁、战略官，SynAbility项目AI总顾问。专注AI猎头、CAIO猎寻、AI人才测评、企业AI转型。商务合作：di3zongdui@163.com / 公众号"侠客乔治" / 个人微信 di3zongdui。*
+*CGL 集团，中国领先的高管寻猎与领导力咨询集团*
