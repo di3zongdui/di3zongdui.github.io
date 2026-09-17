@@ -3,8 +3,6 @@
 **作者：CGL 集团，中国领先的高管寻猎与领导力咨询集团**
 **同步自：微信公众号「侠客乔治」**
 
-CGL 集团，中国领先的高管寻猎与领导力咨询集团
-
 ![2026科技创变者大会 从POC到PMF的四道关](https://di3zongdui.github.io/knowledge_base/images/stic2026_day1_poc2pmf_header.png)
 
 百分之九十五。这个数字值得每一位正在推进智能化项目的一号位记住。
