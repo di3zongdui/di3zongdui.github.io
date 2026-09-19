@@ -1,62 +1,143 @@
 # ============================================================
-# GEO robots.txt 模板 — 放行主流 AI 爬虫
-# 用法：替换 di3zongdui.github.io 后部署到站点根目录
+# robots.txt — 主流 AI 爬虫显式放行清单
+# 站点：https://di3zongdui.github.io
 # 维护：geo-infrastructure Skill
-# 最后更新：2026-08-16
+# 最后更新：2026-09-19
+#
+# 重要说明（免得后人误读本文件的作用）：
+#   本文件底部有 "User-agent: * / Allow: /"，即全站对所有爬虫默认放行。
+#   因此上方逐条声明的实际效果不是"开权限"（权限本来就有），而是
+#   向爬虫运营方显式表达许可意图 —— 部分厂商按 UA 统计站点采纳率。
+#   所以：删除无效 token、补齐真实 token 属于准确性维护，不是增长杠杆。
+#   真正的杠杆在索引收录与第三方实体提及，不在这里。
+#
+# 规则依据：RFC 9309（Robots Exclusion Protocol）。
+#   规范允许行内注释，但本文件改用独立行注释 —— 对自研解析器 100% 安全。
 # ============================================================
 
-User-agent: GPTBot            # OpenAI GPT 训练/检索爬虫
+# ------------------------------------------------------------
+# OpenAI（ChatGPT）
+# 官方文档化的爬虫只有 3 个：https://platform.openai.com/docs/bots
+# 注意：不存在 GPTBot-User 这个 token，此前的配置是无效项，已于 2026-09-19 删除。
+# ------------------------------------------------------------
+# GPTBot：训练语料抓取
+User-agent: GPTBot
 Allow: /
 
-User-agent: GPTBot-User       # OpenAI 用户请求抓取（ChatGPT 检索）
+# OAI-SearchBot：搜索索引（ChatGPT 搜索结果来源）
+User-agent: OAI-SearchBot
 Allow: /
 
-User-agent: OAI-SearchBot     # OpenAI 搜索
+# ChatGPT-User：用户发起的实时抓取
+User-agent: ChatGPT-User
 Allow: /
 
-User-agent: ChatGPT-User      # ChatGPT 联网（旧 UA）
+# ------------------------------------------------------------
+# Anthropic（Claude）
+# ------------------------------------------------------------
+# ClaudeBot：训练语料抓取
+User-agent: ClaudeBot
 Allow: /
 
-User-agent: anthropic-ai      # Anthropic Claude
+# Claude-SearchBot：搜索索引（此前缺失，2026-09-19 补）
+User-agent: Claude-SearchBot
 Allow: /
 
-User-agent: ClaudeBot         # Claude 抓取
+# Claude-User：用户发起的实时抓取
+User-agent: Claude-User
 Allow: /
 
-User-agent: Claude-User       # Claude 用户请求
+# anthropic-ai：早期 UA，保留兼容
+User-agent: anthropic-ai
 Allow: /
 
-User-agent: Google-Extended   # Google AI / Gemini 训练
+# ------------------------------------------------------------
+# Moonshot AI（Kimi）
+# 官方政策页：https://www.kimi.ai/policies/kimi-crawlers
+# 结构与 OpenAI 一致：训练 / 搜索 / 用户触发 三类（此前全部缺失，2026-09-19 补）
+# ------------------------------------------------------------
+# KimiBot：训练语料抓取
+User-agent: KimiBot
 Allow: /
 
-User-agent: GoogleOther       # Google 其他爬虫
+# Kimi-SearchBot：搜索索引
+User-agent: Kimi-SearchBot
 Allow: /
 
-User-agent: PerplexityBot     # Perplexity
+# Kimi-User：用户发起的实时抓取
+User-agent: Kimi-User
 Allow: /
 
-User-agent: Perplexity-User   # Perplexity 用户请求
+# ------------------------------------------------------------
+# Google（Gemini / AI Overviews；同时是 Apple Intelligence 的底座）
+# ------------------------------------------------------------
+# Googlebot：基础索引
+User-agent: Googlebot
 Allow: /
 
-User-agent: Bytespider        # 字节跳动（豆包）
+# Google-Extended：Gemini 训练与 grounding
+User-agent: Google-Extended
 Allow: /
 
-User-agent: Applebot-Extended # Apple AI
+# GoogleOther：其他 Google 抓取
+User-agent: GoogleOther
 Allow: /
 
-User-agent: cohere-ai         # Cohere
+# ------------------------------------------------------------
+# Microsoft（Copilot / Bing Chat）
+# ------------------------------------------------------------
+# Bingbot：Bing 索引，同时也是 ChatGPT 与 Copilot 的上游
+User-agent: Bingbot
 Allow: /
 
-User-agent: meta-externalagent # Meta AI
+# ------------------------------------------------------------
+# Apple（Siri 知识 / Spotlight）
+# ------------------------------------------------------------
+# Applebot：基础索引
+User-agent: Applebot
+Allow: /
+
+# Applebot-Extended：Apple AI 训练
+User-agent: Applebot-Extended
+Allow: /
+
+# ------------------------------------------------------------
+# Perplexity
+# ------------------------------------------------------------
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Perplexity-User
+Allow: /
+
+# ------------------------------------------------------------
+# DeepSeek
+# 目前只有训练爬虫，没有公开的检索爬虫（其联网检索走外部引擎）
+# ------------------------------------------------------------
+User-agent: DeepSeekBot
+Allow: /
+
+# ------------------------------------------------------------
+# 其他 AI 索引与训练源
+# ------------------------------------------------------------
+# 字节跳动（豆包 / 抖音生态）
+User-agent: Bytespider
+Allow: /
+
+User-agent: Amazonbot
+Allow: /
+
+# Common Crawl：多数模型的公共训练语料源
+User-agent: CCBot
+Allow: /
+
+User-agent: cohere-ai
+Allow: /
+
+User-agent: meta-externalagent
 Allow: /
 
 User-agent: meta-externalfetcher
-Allow: /
-
-User-agent: CCBot             # Common Crawl（多模型训练源）
-Allow: /
-
-User-agent: Amazonbot         # Amazon AI
 Allow: /
 
 User-agent: Diffbot
@@ -65,27 +146,30 @@ Allow: /
 User-agent: FacebookBot
 Allow: /
 
-User-agent: Bingbot           # Bing（必应搜索，AI 训练数据源）
-Allow: /
-
-User-agent: Baiduspider       # 百度（百度AI/文心 训练源）
+# ------------------------------------------------------------
+# 中文搜索引擎
+# ------------------------------------------------------------
+User-agent: Baiduspider
 Allow: /
 
 User-agent: Baiduspider-render
 Allow: /
 
-User-agent: Sogou web spider  # 搜狗（搜狗AI）
+User-agent: Sogou web spider
 Allow: /
 
-User-agent: 360Spider          # 360（360AI）
+User-agent: 360Spider
 Allow: /
 
-User-agent: YisouSpider        # 夸克/UC
+# 夸克 / UC
+User-agent: YisouSpider
 Allow: /
 
-# ---- 所有其他爬虫 ----
+# ------------------------------------------------------------
+# 默认：全站放行
+# ------------------------------------------------------------
 User-agent: *
 Allow: /
 
-# ---- sitemap ----
+# ------------------------------------------------------------
 Sitemap: https://di3zongdui.github.io/sitemap.xml

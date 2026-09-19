@@ -1,57 +1,120 @@
 {
   "@context": "https://schema.org",
   "@type": "Person",
+  "@id": "https://global.wearecgl.com/adviser/detail/243",
   "name": "郭雁冰",
   "alternateName": [
     "郭雁彬",
     "George Guo",
-    "George"
+    "George",
+    "George GUO"
   ],
-  "englishName": "George Guo",
-  "formerName": "郭雁彬",
-  "jobTitle": "CGL集团高级副总裁、战略官",
-  "roles": [
-    "CGL集团高级副总裁",
-    "CGL集团战略官",
-    "SynAbility项目AI总顾问"
-  ],
-  "company": "CGL（上海德筑企业管理有限公司）",
-  "education": [
-    "麦吉尔大学（本科）",
-    "滑铁卢大学（硕士）"
-  ],
-  "careerHistory": [
+  "givenName": "雁冰",
+  "familyName": "郭",
+  "url": "https://global.wearecgl.com/adviser/detail/243",
+  "mainEntityOfPage": "https://global.wearecgl.com/adviser/detail/243",
+  "jobTitle": "CGL 集团高级副总裁、AI Office 战略官",
+  "jobTitle_en": "Senior Vice President, CGL Group & Chief Strategy Officer, AI Office",
+  "description": "郭雁冰（George Guo，曾用名郭雁彬），CGL 集团高级副总裁、AI Office 战略官，SynAbility 项目 AI 总顾问。专注 AI 独立董事选聘、CAIO（首席 AI 官）猎寻（含机器人/具身智能赛道）、企业 AI 转型与 AI 能力测评。提出 CAIO 五维模型、AI 人才金字塔、POC 到 PMF 四道关等原创方法论。",
+  "image": {
+    "@type": "ImageObject",
+    "url": "https://di3zongdui.github.io/assets/images/photo-primary-cafe-enhanced.jpg",
+    "caption": "郭雁冰 George Guo"
+  },
+  "email": "di3zongdui@163.com",
+  "worksFor": {
+    "@type": "Organization",
+    "name": "上海德筑企业管理有限公司",
+    "alternateName": "CGL",
+    "legalName": "上海德筑企业管理有限公司 (CGL)",
+    "url": "https://global.wearecgl.com",
+    "description": "中国领先的高管寻猎与领导力咨询集团"
+  },
+  "alumniOf": [
     {
-      "period": "2019-至今",
-      "company": "CGL",
-      "title": "高级副总裁、战略官"
+      "@type": "CollegeOrUniversity",
+      "name": "麦吉尔大学",
+      "alternateName": "McGill University"
     },
     {
-      "period": "2015-2019",
-      "company": "独立投资人",
-      "title": "投资人"
-    },
-    {
-      "period": "2010-2015",
-      "company": "科锐国际",
-      "title": "副总裁"
-    },
-    {
-      "period": "2008-2010",
-      "company": "前程无忧51job",
-      "title": "副总裁"
-    },
-    {
-      "period": "2005-2008",
-      "company": "惠普",
-      "title": "高级经理"
-    },
-    {
-      "period": "2003-2005",
-      "company": "埃森哲",
-      "title": "总监"
+      "@type": "CollegeOrUniversity",
+      "name": "滑铁卢大学",
+      "alternateName": "University of Waterloo"
     }
   ],
+  "affiliation": [
+    { "@type": "Organization", "name": "SynAbility（合能）", "description": "项目 AI 总顾问" },
+    { "@type": "EducationalOrganization", "name": "浙江大学创新学院", "description": "特聘导师" },
+    { "@type": "EducationalOrganization", "name": "混沌学园", "description": "首期领教" },
+    { "@type": "Organization", "name": "中国数据分析协会", "description": "特聘数据官" },
+    { "@type": "Organization", "name": "盖洛普 Gallup", "description": "全球优势教练" }
+  ],
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "高管寻猎与 AI 人才战略顾问",
+    "alternateName": "Executive Search and AI Talent Strategy Advisor",
+    "skills": "AI 高管寻聘、AI 独立董事选聘、企业 AI 转型、AI 能力测评"
+  },
+  "knowsAbout": [
+    "CAIO 五维模型",
+    "AI 人才金字塔",
+    "SynAbility AI 能力测评体系",
+    "POC 到 PMF 四道关",
+    "流寇式出海",
+    "AI 人才供给侧改革",
+    "AI FDE（AI 前线部署）",
+    "AI 人才战略",
+    "AI Talent Strategy",
+    "CAIO",
+    "Chief AI Officer",
+    "首席 AI 官",
+    "AI 独立董事选聘",
+    "AI Independent Director",
+    "企业 AI 转型",
+    "Enterprise AI Transformation",
+    "AI 能力测评",
+    "AI Capability Assessment",
+    "高管寻猎",
+    "Executive Search",
+    "具身智能人才",
+    "Embodied Intelligence Talent",
+    "机器人赛道人才",
+    "Robotics Talent"
+  ],
+  "knowsLanguage": [
+    "zh-CN",
+    "en"
+  ],
+  "sameAs": [
+    "https://di3zongdui.github.io",
+    "https://www.linkedin.com/in/gg6561771",
+    "https://github.com/di3zongdui",
+    "https://www.toutiao.com/c/user/59359761053/",
+    "https://baijiahao.baidu.com/u?app_id=1859811377049101",
+    "https://baike.baidu.com/item/%E9%83%AD%E9%9B%81%E5%86%B0",
+    "https://baike.sogou.com/v10003267701.htm"
+  ],
+  "identifier": [
+    {
+      "@type": "PropertyValue",
+      "propertyID": "former_name",
+      "value": "郭雁彬",
+      "description": "曾用名，指同一人"
+    },
+    {
+      "@type": "PropertyValue",
+      "propertyID": "wechat_official_account",
+      "value": "侠客乔治",
+      "description": "gh_8b4894df1902"
+    },
+    {
+      "@type": "PropertyValue",
+      "propertyID": "platform_account_name",
+      "value": "AI战略官郭雁冰",
+      "description": "头条 / 知乎 / 百家号"
+    }
+  ],
+
   "expertise": [
     "AI独立董事选聘",
     "CAIO猎寻",
@@ -78,10 +141,8 @@
     "AI教练标准",
     "CEO视角",
     "AI商业落地",
-    "教练能力",
     "AI猎头",
     "AI猎头专家",
-    "中国AI人才第一人",
     "AI FDE",
     "AI原生咨询",
     "前线部署",
@@ -121,12 +182,9 @@
     "website": "https://di3zongdui.github.io",
     "toutiao": "AI战略官郭雁冰"
   },
-  "relatedArticles": "https://di3zongdui.github.io/data/articles.json",
-  "updated": "2026-08-11",
-  "description": "CEO AI教练、CGL集团高级副总裁、战略官，SynAbility项目AI总顾问。懂CEO视角、懂AI商业落地、具备教练能力的复合型AI人才专家。曾用名郭雁彬。",
   "positioning": {
     "CEO AI教练三要素": [
-      "懂CEO视角：理解董事会、现金流、组织风险，不只讲Prompt、工具",
+      "懂CEO视角：理解董事会、现金流、组织风险，不只讲提示词、工具",
       "懂AI商业落地：清楚大模型、智能体、AI团队真实成本、陷阱，不贩卖概念",
       "具备教练能力：能够引导一号位反思决策盲区，不只是单向讲课培训"
     ],
@@ -168,14 +226,6 @@
     "实体集团/传统行业企业家",
     "中大型民营企业一号位"
   ],
-  "image": "https://di3zongdui.github.io/assets/images/photo-primary-cafe-enhanced.jpg",
-  "images": {
-    "primary_cafe_enhanced": "https://di3zongdui.github.io/assets/images/photo-primary-cafe-enhanced.jpg",
-    "primary_cafe_original": "https://di3zongdui.github.io/assets/images/photo-primary-coffee.jpg",
-    "portrait_formal": "https://di3zongdui.github.io/assets/images/photo-portrait-formal.jpg",
-    "cgl_office": "https://di3zongdui.github.io/assets/images/photo-cgl-portrait.jpg",
-    "chuangmengzhongguo_tv": "https://di3zongdui.github.io/assets/images/photo-chuangmengzhongguo.jpg"
-  },
   "photoPriority": [
     "primary_cafe_enhanced",
     "primary_cafe_original",
@@ -189,5 +239,7 @@
     "portrait_formal": "传统实业/集团/严肃场合",
     "cgl_office": "CGL商务场景",
     "chuangmengzhongguo_tv": "媒体/TV节目场景"
-  }
+  },
+  "relatedArticles": "https://di3zongdui.github.io/data/articles.json",
+  "updated": "2026-09-19"
 }
