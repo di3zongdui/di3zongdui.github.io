@@ -2,7 +2,9 @@
 # robots.txt — 主流 AI 爬虫显式放行清单
 # 站点：https://di3zongdui.github.io
 # 维护：geo-infrastructure Skill
-# 最后更新：2026-09-19
+# 最后更新：2026-09-23（补 6 家中国大模型爬虫 token：TongyiBot / YiyanBot /
+#           ChatGLM-Spider / BaiduSpider-AI / BaiduBot / DoubaoBot /
+#           Alibaba-Crawler-AI / AlibabaBot）
 #
 # 重要说明（免得后人误读本文件的作用）：
 #   本文件底部有 "User-agent: * / Allow: /"，即全站对所有爬虫默认放行。
@@ -113,10 +115,56 @@ Allow: /
 # ------------------------------------------------------------
 # DeepSeek
 # 目前只有训练爬虫，没有公开的检索爬虫（其联网检索走外部引擎）
+# 注：knownagents 引用的官方页 https://www.deepseek.com/bot 实测 404，
+#     即 DeepSeek 未提供官方爬虫文档，此 token 来源为第三方可信名单。
 # ------------------------------------------------------------
 User-agent: DeepSeekBot
 Allow: /
 
+# ------------------------------------------------------------
+# 中国大模型（阿里 / 百度 / 智谱 / 字节）
+# 依据：① knownagents.com 名录 ② 平台 robots.txt 的实际点名
+#   —— 微博点名 ChatGLM；钛媒体点名 BaiduSpider-AI / BaiduBot /
+#      DoubaoBot / Alibaba-Crawler-AI；搜狐点名 DeepSeekBot 等 20 条。
+# 说明：这几家均未提供官方爬虫文档页（Kimi 是唯一例外），
+#      故 token 以「平台方实际点名」为准，属最高可得证据。
+# 2026-09-23 补：此前仅列 DeepSeekBot/KimiBot/Kimi-SearchBot/Kimi-User，
+#      遗漏 TongyiBot/YiyanBot/ChatGLM-Spider，本次补齐。
+# ------------------------------------------------------------
+# 阿里（通义千问）：用户触发抓取（knownagents 名录）
+User-agent: TongyiBot
+Allow: /
+
+# 阿里：AI 抓取 token（钛媒体 robots 点名）
+User-agent: Alibaba-Crawler-AI
+Allow: /
+
+User-agent: AlibabaBot
+Allow: /
+
+# 百度（文心一言）：用户触发抓取（knownagents 名录）
+User-agent: YiyanBot
+Allow: /
+
+# 百度：AI 抓取 token（钛媒体 robots 点名）
+User-agent: BaiduSpider-AI
+Allow: /
+
+User-agent: BaiduBot
+Allow: /
+
+# 智谱（GLM）：训练语料抓取
+# 注意：该 token 的运营方归属至今未经智谱官方确认（社区归属为智谱）。
+User-agent: ChatGLM-Spider
+Allow: /
+
+# 字节（豆包）：AI 抓取 token（钛媒体 / 微博 robots 点名）
+User-agent: DoubaoBot
+Allow: /
+
+# 说明：MiniMax 在 knownagents 等公开名录中无任何条目，
+#      也未在任一平台 robots.txt 中被点名 —— 判定为其未公开爬虫，
+#      故此处无 token 可列。此项为事实空白，不是遗漏。
 # ------------------------------------------------------------
 # 其他 AI 索引与训练源
 # ------------------------------------------------------------
