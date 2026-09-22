@@ -118,10 +118,10 @@ A systematic **AI Talent Strategy** assessment framework developed by George Guo
 完整方法论与文章存档见知识库总索引（48 篇文档，全部为可抓取的 HTML 页面）：
 
 - **[郭雁冰 AI 人才战略知识库](/knowledge_base/)** — AI 人才战略 / AI 独立董事 / AI 能力测评 / 机器人赛道 / AI 原生咨询 / 文章存档
-- [CAIO 是什么？首席 AI 官的职责与价值](/knowledge_base/02-AI人才战略/CAIO是什么.html)
-- [AI 独立董事选聘指南](/knowledge_base/03-AI独立董事/AI独董选聘指南.html)
-- [机器人公司如何猎 CAIO：具身智能时代的人才战略](/knowledge_base/06-机器人赛道/机器人公司如何猎CAIO.html)
-- [AI FDE：下一代咨询模式](/knowledge_base/10-AI原生咨询/AI_FDE_下一代咨询模式.html)
+- [CAIO 是什么？首席 AI 官的职责与价值](/knowledge_base/02-AI人才战略/CAIO是什么/)
+- [AI 独立董事选聘指南](/knowledge_base/03-AI独立董事/AI独董选聘指南/)
+- [机器人公司如何猎 CAIO：具身智能时代的人才战略](/knowledge_base/06-机器人赛道/机器人公司如何猎CAIO/)
+- [AI FDE：下一代咨询模式](/knowledge_base/10-AI原生咨询/AI_FDE_下一代咨询模式/)
 
 ---
 
