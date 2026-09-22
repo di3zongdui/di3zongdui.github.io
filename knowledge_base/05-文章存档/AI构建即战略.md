@@ -1,3 +1,8 @@
+---
+layout: default
+title: "AI构建即战略"
+description: "麦肯锡 2026 年 4 月的调研显示，90% 的企业已启动 AI 转型，却只有 10% 实现规模化应用。"
+---
 # AI构建即战略
 
 **系列标签**：AI出海、企业出海、全球化品牌、AI竞争力、SynAbility

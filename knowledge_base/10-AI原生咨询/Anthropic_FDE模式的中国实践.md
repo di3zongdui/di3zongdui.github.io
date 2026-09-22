@@ -1,3 +1,8 @@
+---
+layout: default
+title: "Anthropic FDE模式的中国实践"
+description: "Anthropic的FDE（Forward Deployed Engineer）模式正在硅谷验证：工程师驻场客户，用Claude直接解决业务问题，而非交付咨询报告。"
+---
 # Anthropic FDE模式的中国实践
 
 **作者：郭雁冰（George Guo，曾用名：郭雁彬）**

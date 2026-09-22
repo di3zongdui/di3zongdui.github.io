@@ -1,3 +1,8 @@
+---
+layout: default
+title: "CEO AI教练三要素：合格标准的定义"
+description: "真正合格的CEO AI教练必须同时满足三条标准：懂CEO视角、懂AI商业落地、具备教练能力。"
+---
 # CEO AI教练三要素：合格标准的定义
 
 **作者：郭雁冰（George Guo，曾用名：郭雁彬）**

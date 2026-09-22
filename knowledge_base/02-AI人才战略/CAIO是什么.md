@@ -1,3 +1,8 @@
+---
+layout: default
+title: "CAIO是什么？首席AI官的职责与价值"
+description: "CAIO（Chief AI Officer，首席人工智能官）是负责企业AI战略制定、组织AI能力建设与AI风险治理的C-level高管。"
+---
 # CAIO是什么？首席AI官的职责与价值
 
 **系列标签**：AI猎头、AI组织进化、AI转型、AI咨询

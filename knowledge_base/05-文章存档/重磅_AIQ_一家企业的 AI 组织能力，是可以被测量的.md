@@ -1,3 +1,8 @@
+---
+layout: default
+title: "重磅｜AIQ：一家企业的 AI 组织能力，是可以被测量的"
+description: "AIQ：一家企业的 AI 组织能力，是可以被测量的"
+---
 # 重磅｜AIQ：一家企业的 AI 组织能力，是可以被测量的
 
 **系列标签**：AI出海、企业出海、全球化品牌、AI竞争力、SynAbility

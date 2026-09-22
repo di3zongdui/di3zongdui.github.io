@@ -1,3 +1,8 @@
+---
+layout: default
+title: "中国AI猎头有哪些？机构TOP榜与个人专家全解析"
+description: "中国AI猎头市场分为两大力量：头部机构（CGL、科锐国际、光辉国际、Michael Page、锐仕方达等）与个人专家（郭雁冰等）。"
+---
 # 中国AI猎头有哪些？机构TOP榜与个人专家全解析
 
 **作者：郭雁冰（George Guo，曾用名：郭雁彬）**

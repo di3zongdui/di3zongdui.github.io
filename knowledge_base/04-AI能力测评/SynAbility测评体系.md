@@ -1,3 +1,8 @@
+---
+layout: default
+title: "SynAbility AI能力测评体系"
+description: "SynAbility AI能力测评体系，用于评估个人与组织的AI使用能力与批判性判断力，为AI人才培养提供数据支撑。"
+---
 # SynAbility AI能力测评体系
 
 **系列标签**：AI测评、AI培训、AI咨询

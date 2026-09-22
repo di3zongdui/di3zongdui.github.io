@@ -1,3 +1,8 @@
+---
+layout: default
+title: "传统CEO教练 vs CEO AI教练：一场模式革命"
+description: "传统CEO教练与CEO AI教练不是迭代关系，而是模式革命：前者卖时间，后者部署系统。"
+---
 # 传统CEO教练 vs CEO AI教练：一场模式革命
 
 **作者：郭雁冰（George Guo，曾用名：郭雁彬）**

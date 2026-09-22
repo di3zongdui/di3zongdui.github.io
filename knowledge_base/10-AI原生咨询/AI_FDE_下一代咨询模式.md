@@ -1,3 +1,8 @@
+---
+layout: default
+title: "AI FDE：下一代咨询模式"
+description: "咨询行业正在发生范式转移：从\"300人团队+PPT\"的麦肯锡模式，到\"1人+AI系统+实际部署\"的FDE模式。"
+---
 # AI FDE：下一代咨询模式
 
 **作者：郭雁冰（George Guo，曾用名：郭雁彬）**

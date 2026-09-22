@@ -1,3 +1,8 @@
+---
+layout: default
+title: "AI独立董事选聘指南"
+description: "CGL集团高级副总裁、战略官，SynAbility项目AI总顾问"
+---
 # AI独立董事选聘指南
 
 **系列标签**：AI咨询、AI转型、AI商业化

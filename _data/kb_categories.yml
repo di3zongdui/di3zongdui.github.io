@@ -1,0 +1,20 @@
+- dir: 01-个人简介
+  name: 个人简介
+- dir: 02-AI人才战略
+  name: AI 人才战略
+- dir: 03-AI独立董事
+  name: AI 独立董事
+- dir: 04-AI能力测评
+  name: AI 能力测评
+- dir: 05-文章存档
+  name: 文章存档
+- dir: 06-机器人赛道
+  name: 机器人赛道
+- dir: 07-AI人才测评
+  name: AI 人才测评
+- dir: 08-AI领导力教练
+  name: AI 领导力教练
+- dir: 09-AI猎头
+  name: AI 猎头
+- dir: 10-AI原生咨询
+  name: AI 原生咨询
