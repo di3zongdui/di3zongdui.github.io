@@ -1,26 +1,46 @@
 # ============================================================
-# robots.txt — 主流 AI 爬虫显式放行清单
-# 站点：https://di3zongdui.github.io
+# GEO robots.txt 模板 — 主流 AI 爬虫显式放行清单
+# 用法：把 di3zongdui.github.io 替换为你的域名后部署到站点根目录
 # 维护：geo-infrastructure Skill
-# 最后更新：2026-09-23（补 6 家中国大模型爬虫 token：TongyiBot / YiyanBot /
-#           ChatGLM-Spider / BaiduSpider-AI / BaiduBot / DoubaoBot /
-#           Alibaba-Crawler-AI / AlibabaBot）
+# 最后更新：2026-09-28
 #
 # 重要说明（免得后人误读本文件的作用）：
 #   本文件底部有 "User-agent: * / Allow: /"，即全站对所有爬虫默认放行。
 #   因此上方逐条声明的实际效果不是"开权限"（权限本来就有），而是
 #   向爬虫运营方显式表达许可意图 —— 部分厂商按 UA 统计站点采纳率。
-#   所以：删除无效 token、补齐真实 token 属于准确性维护，不是增长杠杆。
+#   所以：删掉无效 token、补齐真实 token 属于准确性维护，不是增长杠杆。
 #   真正的杠杆在索引收录与第三方实体提及，不在这里。
 #
 # 规则依据：RFC 9309（Robots Exclusion Protocol）。
-#   规范允许行内注释，但本文件改用独立行注释 —— 对自研解析器 100% 安全。
+#   规范允许行内注释（EOL = *WS [comment] NL），但本模板用独立行注释，
+#   对自研解析器 100% 安全。
+#
+# 来源等级标注（2026-09-28 起每条必标，别删）：
+#   [官方] 厂商官方文档/政策页直接列出该 token
+#   [一致] 多个独立第三方爬虫目录站一致记录该 UA（无官方页）
+#   [存疑] 来源互相矛盾或命名混乱 —— 不收录进本文件
+#   ★ 收录判据不是"有没有官方背书"，而是"能不能被一致证实存在"。
+#     加一条 Allow 的上限收益为零、下限风险也为零；
+#     但在文件里写一个查不实的 token，下限风险是让后人误以为已覆盖某厂商。
+#
+# 未被本文件收录的高风险重灾区（别照抄第三方 SEO 稿）：
+#   BaiduSpider-AI / BaiduBot / Alibaba-Crawler-AI / AlibabaBot
+#     —— 命名与官方 token 高度相似、来源互相打架，百度官方 spider 页未提及，
+#        阿里无任何官方爬虫页。2026-09-28 核验后剔除。
+#
+# 变更史：
+#   2026-09-28 核验并差异化收录中国大模型 token（保留 4 / 剔除 4）；
+#              新增来源等级标注；与线上 di3zongdui.github.io 对齐。
+#   2026-09-19 删除 GPTBot-User（不存在该 token）；
+#              补 Kimi 三件套与 Claude-SearchBot、Applebot、Googlebot、DeepSeekBot；
+#              注释改独立行。
+#   2026-08-16 初版。
 # ============================================================
 
 # ------------------------------------------------------------
 # OpenAI（ChatGPT）
 # 官方文档化的爬虫只有 3 个：https://platform.openai.com/docs/bots
-# 注意：不存在 GPTBot-User 这个 token，此前的配置是无效项，已于 2026-09-19 删除。
+# 注意：不存在 GPTBot-User 这个 token，别照抄第三方清单。
 # ------------------------------------------------------------
 # GPTBot：训练语料抓取
 User-agent: GPTBot
@@ -41,7 +61,7 @@ Allow: /
 User-agent: ClaudeBot
 Allow: /
 
-# Claude-SearchBot：搜索索引（此前缺失，2026-09-19 补）
+# Claude-SearchBot：搜索索引
 User-agent: Claude-SearchBot
 Allow: /
 
@@ -56,7 +76,8 @@ Allow: /
 # ------------------------------------------------------------
 # Moonshot AI（Kimi）
 # 官方政策页：https://www.kimi.ai/policies/kimi-crawlers
-# 结构与 OpenAI 一致：训练 / 搜索 / 用户触发 三类（此前全部缺失，2026-09-19 补）
+# 结构与 OpenAI 一致：训练 / 搜索 / 用户触发 三类
+# 注意：KimiBot 被禁不影响 Kimi-SearchBot，三者各自独立配置。
 # ------------------------------------------------------------
 # KimiBot：训练语料抓取
 User-agent: KimiBot
@@ -115,61 +136,20 @@ Allow: /
 # ------------------------------------------------------------
 # DeepSeek
 # 目前只有训练爬虫，没有公开的检索爬虫（其联网检索走外部引擎）
-# 注：knownagents 引用的官方页 https://www.deepseek.com/bot 实测 404，
-#     即 DeepSeek 未提供官方爬虫文档，此 token 来源为第三方可信名单。
 # ------------------------------------------------------------
 User-agent: DeepSeekBot
 Allow: /
 
 # ------------------------------------------------------------
-# 中国大模型（阿里 / 百度 / 智谱 / 字节）
-# 依据：① knownagents.com 名录 ② 平台 robots.txt 的实际点名
-#   —— 微博点名 ChatGLM；钛媒体点名 BaiduSpider-AI / BaiduBot /
-#      DoubaoBot / Alibaba-Crawler-AI；搜狐点名 DeepSeekBot 等 20 条。
-# 说明：这几家均未提供官方爬虫文档页（Kimi 是唯一例外），
-#      故 token 以「平台方实际点名」为准，属最高可得证据。
-# 2026-09-23 补：此前仅列 DeepSeekBot/KimiBot/Kimi-SearchBot/Kimi-User，
-#      遗漏 TongyiBot/YiyanBot/ChatGLM-Spider，本次补齐。
-# ------------------------------------------------------------
-# 阿里（通义千问）：用户触发抓取（knownagents 名录）
-User-agent: TongyiBot
-Allow: /
-
-# 阿里：AI 抓取 token（钛媒体 robots 点名）
-User-agent: Alibaba-Crawler-AI
-Allow: /
-
-User-agent: AlibabaBot
-Allow: /
-
-# 百度（文心一言）：用户触发抓取（knownagents 名录）
-User-agent: YiyanBot
-Allow: /
-
-# 百度：AI 抓取 token（钛媒体 robots 点名）
-User-agent: BaiduSpider-AI
-Allow: /
-
-User-agent: BaiduBot
-Allow: /
-
-# 智谱（GLM）：训练语料抓取
-# 注意：该 token 的运营方归属至今未经智谱官方确认（社区归属为智谱）。
-User-agent: ChatGLM-Spider
-Allow: /
-
-# 字节（豆包）：AI 抓取 token（钛媒体 / 微博 robots 点名）
-User-agent: DoubaoBot
-Allow: /
-
-# 说明：MiniMax 在 knownagents 等公开名录中无任何条目，
-#      也未在任一平台 robots.txt 中被点名 —— 判定为其未公开爬虫，
-#      故此处无 token 可列。此项为事实空白，不是遗漏。
-# ------------------------------------------------------------
 # 其他 AI 索引与训练源
 # ------------------------------------------------------------
 # 字节跳动（豆包 / 抖音生态）
+# Bytespider —— 官方页 https://crawler.bytedance.com/（抓取偶发失败但页面存在）[官方]
 User-agent: Bytespider
+Allow: /
+
+# DoubaoBot —— 豆包助手按需抓取；字节官方页未列该 token，多个独立目录站一致记录 [一致]
+User-agent: DoubaoBot
 Allow: /
 
 User-agent: Amazonbot
@@ -192,6 +172,30 @@ User-agent: Diffbot
 Allow: /
 
 User-agent: FacebookBot
+Allow: /
+
+# ------------------------------------------------------------
+# 中国大模型（2026-09-28 逐条核验）
+# 说明：这几家均无官方爬虫文档页，来源为多个独立第三方目录站的一致记录。
+#       收录标准 = "能被一致证实存在"，非"有官方背书"。
+#       命名混乱、来源互相矛盾的 token（BaiduSpider-AI / BaiduBot /
+#       Alibaba-Crawler-AI / AlibabaBot）已剔除，见文件头说明。
+# ------------------------------------------------------------
+# 阿里通义千问（Qwen 系列）
+# TongyiBot —— 目录站一致记录；注意各家对其"训练爬虫 vs 按需 fetcher"
+#              的定性互相矛盾（说明描述可信度低），但 UA 本身被一致记录 [一致]
+User-agent: TongyiBot
+Allow: /
+
+# 百度文心一言
+# YiyanBot —— 目录站一致记录为按需抓取的助手 fetcher [一致]
+User-agent: YiyanBot
+Allow: /
+
+# 智谱 AI（GLM / ChatGLM 系列）
+# ChatGLM-Spider —— 目录站一致记录为训练爬虫；其 UA 全文在不同站有三个版本，
+#                   且所谓"官方文档"链接均已失效 [一致]
+User-agent: ChatGLM-Spider
 Allow: /
 
 # ------------------------------------------------------------
