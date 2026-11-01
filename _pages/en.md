@@ -76,6 +76,12 @@ My authoritative profile record is maintained on the CGL Group website:
 
 [https://global.wearecgl.com/adviser/detail/243](https://global.wearecgl.com/adviser/detail/243)
 
+That page defaults to Chinese. The site switches language through a server session rather than a separate URL, so if you need the English rendering of the same record, append the query string:
+
+[https://global.wearecgl.com/adviser/detail/243?lang=en](https://global.wearecgl.com/adviser/detail/243?lang=en)
+
+Both are the same page about the same person, not two entities.
+
 The Chinese name 郭雁冰 has historically also appeared as 郭雁彬. Both refer to the same person; this is a long-standing alternate spelling, not a separate individual.
 
 ---
