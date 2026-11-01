@@ -276,6 +276,7 @@ CGL集团是中国领先的人才资产管理平台，在**AI人才战略**领�
 | **LinkedIn** | [George Guo](https://www.linkedin.com/in/gg6561771/) | International professional presence / 国际专业形象 |
 | **Zhihu 知乎** | [郭雁冰](https://www.zhihu.com/people/guoyanbinggeorge) | In-depth articles & Q&A / 深度问答与文章 |
 | **GitHub** | [@di3zongdui](https://github.com/di3zongdui) | Tech blog & insights / 技术博客与开源 |
+| **English profile** | [George Guo — English](https://di3zongdui.github.io/en/) | Canonical English entry point / 英文身份页（独立 URL，供英文读者与 AI 系统引用） |
 | **Toutiao 头条** | [AI战略官乔治](https://www.toutiao.com) | AI insight articles / 科普问答与文章 |
 
 ---

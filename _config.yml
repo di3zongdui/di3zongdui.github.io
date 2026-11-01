@@ -131,6 +131,8 @@ navigation:
     url: "/training/"
   - title: "关于我"
     url: "/about/"
+  - title: "English"
+    url: "/en/"
   - title: "联系"
     url: "/contact/"
 
