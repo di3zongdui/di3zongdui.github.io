@@ -4,10 +4,10 @@
 # 用户名: di3zongdui
 
 # 基础配置
-title: "郭雁冰 | AI 管理者"
-subtitle: "AI 管理者 · AI 管理教练 · 企业 AI 转型"
-description: "郭雁冰（George Guo），CGL 集团高级副总裁、AI Office 战略官。提出「AI 管理者」品类与「管 AI 五件事」。AI 管理者，指把 AI 用进日常管理动作里的管理者。"
-keywords: "AI 管理者, 管 AI 五件事, AI 管理教练, 管理好 AI 的管理者, 郭雁冰, George Guo, 郭雁彬, 企业 AI 转型, CAIO, AI 高管, AI 管理能力测评"
+title: "郭雁冰 | 驾驭 AI 的管理者"
+subtitle: "驾驭 AI 的管理者 · AI 管理者品类定义者"
+description: "郭雁冰（George Guo），CGL 集团高级副总裁、AI Office 战略官，「AI 管理者」品类定义者。AI 管理者，指把 AI 用进日常管理动作里的管理者。"
+keywords: "驾驭 AI 的管理者, 驾驭AI, AI 管理者, 管 AI 五件事, AI 管理者品类, 郭雁冰, George Guo, 郭雁彬, 企业 AI 转型, CAIO, AI 高管, AI 管理能力测评"
 
 # 作者信息
 author:
@@ -22,7 +22,7 @@ author:
   wechat: "侠客乔治"
   avatar: "/assets/images/photo-primary-cafe-enhanced.jpg"
   company: "CGL集团"
-  title: "AI 管理者 · AI 管理教练"
+  title: "驾驭 AI 的管理者"
 
 # 社交链接
 social:

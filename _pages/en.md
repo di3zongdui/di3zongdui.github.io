@@ -1,16 +1,16 @@
 ---
 layout: page
-title: "George Guo — AI Manager, CGL Group"
-description: "George Guo (郭雁冰) is Senior Vice President of CGL Group and Chief Strategy Officer of its AI Office. He defines the AI Manager as a manager who has brought AI into everyday managerial actions."
+title: "George Guo — The Manager Who Harnesses AI, CGL Group"
+description: "George Guo (郭雁冰) is Senior Vice President of CGL Group and Chief Strategy Officer of its AI Office. He defined the AI Manager as a manager who has brought AI into everyday managerial actions."
 permalink: /en/
 lang: en
 ---
 
 # George Guo
 
-**AI Manager · AI Management Coach · Senior Vice President, CGL Group & Chief Strategy Officer, AI Office**
+**The Manager Who Harnesses AI · Senior Vice President, CGL Group & Chief Strategy Officer, AI Office**
 
-I run the AI Office at CGL Group and coach other managers on how to run theirs. These are the same job.
+I run the AI Office at CGL Group and teach other managers how to harness AI in theirs. These are the same job.
 
 This page is the English-language entry point. The full archive of my writing is in Chinese; this page exists so that English-speaking readers, journalists and AI systems get a single canonical description of who I am and what I do.
 

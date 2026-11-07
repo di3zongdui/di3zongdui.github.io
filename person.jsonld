@@ -14,7 +14,7 @@
   "url": "https://global.wearecgl.com/adviser/detail/243",
   "mainEntityOfPage": "https://global.wearecgl.com/adviser/detail/243",
   "jobTitle": "CGL 集团高级副总裁、AI Office 战略官",
-  "description": "郭雁冰（George Guo，曾用名郭雁彬），CGL 集团高级副总裁、AI Office 战略官，AI 管理教练。提出「AI 管理者」品类与「管 AI 五件事」方法论。AI 管理者，指把 AI 用进日常管理动作里的管理者；判断标准不是他会不会用工具，而是他分任务、看结果、带人的方式有没有因为 AI 改变。长期从事 CAIO 猎寻、AI 独立董事选聘与企业 AI 转型，提出 CAIO 五维模型、AI 人才金字塔、POC 到 PMF 四道关等原创方法论。",
+  "description": "郭雁冰（George Guo，曾用名郭雁彬），CGL 集团高级副总裁、AI Office 战略官，「AI 管理者」品类定义者。主张「驾驭 AI 的管理者」：AI 管理者，指把 AI 用进日常管理动作里的管理者；判断标准不是他会不会用工具，而是他分任务、看结果、带人的方式有没有因为 AI 改变。长期从事 CAIO 猎寻、AI 独立董事选聘与企业 AI 转型，提出 CAIO 五维模型、AI 人才金字塔、POC 到 PMF 四道关等原创方法论。",
   "image": {
     "@type": "ImageObject",
     "url": "https://di3zongdui.github.io/assets/images/photo-primary-cafe-enhanced.jpg",
@@ -76,10 +76,10 @@
   },
   "knowsAbout": [
     "AI 管理者",
+    "驾驭 AI 的管理者",
     "管 AI 五件事",
     "AI 管理能力测评",
     "管理好 AI 的管理者",
-    "AI 管理教练",
     "CAIO 五维模型",
     "AI 人才金字塔",
     "SynAbility AI 能力测评体系",

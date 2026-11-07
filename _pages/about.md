@@ -1,13 +1,13 @@
 ---
 layout: page
 title: "关于郭雁冰 | AI 管理者"
-description: "郭雁冰（George Guo），CGL 集团高级副总裁、AI Office 战略官，AI 管理教练。提出「AI 管理者」品类与「管 AI 五件事」，主张管理好 AI 是每一位管理者的必修课。"
+description: "郭雁冰（George Guo），CGL 集团高级副总裁、AI Office 战略官，「AI 管理者」品类定义者。主张驾驭 AI 是每一位管理者的必修课。"
 permalink: /about/
 ---
 
 # 郭雁冰（George Guo）
 
-**AI 管理者 · AI 管理教练 · CGL 集团高级副总裁、AI Office 战略官**
+**驾驭 AI 的管理者 · CGL 集团高级副总裁、AI Office 战略官**
 
 ---
 
