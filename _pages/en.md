@@ -1,14 +1,14 @@
 ---
 layout: page
 title: "George Guo — The Manager Who Harnesses AI, CGL Group"
-description: "George Guo (郭雁冰) is Senior Vice President of CGL Group and Chief Strategy Officer of its AI Office. He defined the AI Manager as a manager who has brought AI into everyday managerial actions."
+description: "George Guo (郭雁冰) is Senior Vice President of CGL Group, overseeing strategy development and investment, and Chief Strategy Officer of its AI Office. Previously Vice President at Career International (300662.SZ) and 51job (NASDAQ: JOBS), and an independent investor from 2015 to 2019. He defined the AI Manager as a manager who has brought AI into everyday managerial actions."
 permalink: /en/
 lang: en
 ---
 
 # George Guo
 
-**The Manager Who Harnesses AI · Senior Vice President, CGL Group & Chief Strategy Officer, AI Office**
+**The Manager Who Harnesses AI · Senior Vice President, Strategy Development and Investment · Chief Strategy Officer, AI Office, CGL Group**
 
 I run the AI Office at CGL Group and teach other managers how to harness AI in theirs. These are the same job.
 
@@ -71,9 +71,14 @@ Internal figures, updated 2026 — not audited, not a market ranking:
 
 | Period | Role |
 |---|---|
-| 2019 – present | Senior Vice President & Chief Strategy Officer, AI Office, CGL Group (上海德筑企业管理有限公司) |
-| 2015 – 2019 | Investor, technology and healthcare |
-| Before 2015 | Vice President, Career International (科锐国际, 300662.SZ) · Vice President, 51job (前程无忧, NASDAQ: JOBS) · Senior Manager, Hewlett-Packard · Director, Accenture |
+| 2019 – present | Senior Vice President, Strategy Development and Investment · Chief Strategy Officer, AI Office — CGL Group (上海德筑企业管理有限公司) |
+| 2015 – 2019 | Independent investor — fintech, cloud robotics, enterprise services |
+| 2010 – 2015 | Vice President, Career International (科锐国际, 300662.SZ) |
+| 2008 – 2010 | Vice President, 51job (前程无忧, NASDAQ: JOBS) — HR outsourcing |
+| 2005 – 2008 | Senior Manager, Hewlett-Packard — automotive, manufacturing and semiconductor, APAC |
+| 2003 – 2005 | Director, Accenture — diamond client management consulting |
+
+**Education**: BA, McGill University · MSc in Computer Science, University of Waterloo
 
 More than 20 years across executive search, enterprise technology and investment. Based in Shanghai and Suzhou.
 

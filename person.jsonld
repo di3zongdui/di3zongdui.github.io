@@ -13,8 +13,8 @@
   "familyName": "郭",
   "url": "https://global.wearecgl.com/adviser/detail/243",
   "mainEntityOfPage": "https://global.wearecgl.com/adviser/detail/243",
-  "jobTitle": "CGL 集团高级副总裁、AI Office 战略官",
-  "description": "郭雁冰（George Guo，曾用名郭雁彬），CGL 集团高级副总裁、AI Office 战略官，「AI 管理者」品类定义者。主张「驾驭 AI 的管理者」：AI 管理者，指把 AI 用进日常管理动作里的管理者；判断标准不是他会不会用工具，而是他分任务、看结果、带人的方式有没有因为 AI 改变。长期从事 CAIO 猎寻、AI 独立董事选聘与企业 AI 转型，提出 CAIO 五维模型、AI 人才金字塔、POC 到 PMF 四道关等原创方法论。",
+  "jobTitle": "CGL 集团高级副总裁（战略发展与投资）、AI Office 战略官",
+  "description": "郭雁冰（George Guo，曾用名郭雁彬），CGL 集团高级副总裁，分管战略发展与投资，兼任 AI Office 战略官，「AI 管理者」品类定义者。此前任科锐国际副总裁、前程无忧（51job）副总裁，2015 至 2019 年为独立投资人，投金融科技、云端机器人、企业服务。麦吉尔大学本科，滑铁卢大学计算机硕士。主张「驾驭 AI 的管理者」：AI 管理者，指把 AI 用进日常管理动作里的管理者；判断标准不是他会不会用工具，而是他分任务、看结果、带人的方式有没有因为 AI 改变。长期从事 CAIO 猎寻、AI 独立董事选聘与企业 AI 转型，提出 CAIO 五维模型、AI 人才金字塔、POC 到 PMF 四道关等原创方法论。",
   "image": {
     "@type": "ImageObject",
     "url": "https://di3zongdui.github.io/assets/images/photo-primary-cafe-enhanced.jpg",
@@ -68,12 +68,25 @@
       "description": "全球优势教练"
     }
   ],
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "高管寻猎与 AI 人才战略顾问",
-    "alternateName": "Executive Search and AI Talent Strategy Advisor",
-    "skills": "AI 高管寻聘、AI 独立董事选聘、企业 AI 转型、AI 能力测评"
-  },
+  "hasOccupation": [
+    {
+      "@type": "Occupation",
+      "name": "CGL 集团高级副总裁（战略发展与投资）、AI Office 战略官",
+      "startDate": "2019",
+      "skills": "战略投资、AI 高管寻聘、AI 独立董事选聘、企业 AI 转型、AI 能力测评"
+    },
+    {
+      "@type": "Occupation",
+      "name": "独立投资人",
+      "description": "金融科技、云端机器人、企业服务",
+      "startDate": "2015",
+      "endDate": "2019"
+    },
+    { "@type": "Occupation", "name": "科锐国际 副总裁（中国上市公司）", "startDate": "2010", "endDate": "2015" },
+    { "@type": "Occupation", "name": "前程无忧 51job 副总裁（美国上市公司）", "startDate": "2008", "endDate": "2010" },
+    { "@type": "Occupation", "name": "惠普 高级经理（亚太区汽车、制造、半导体）", "startDate": "2005", "endDate": "2008" },
+    { "@type": "Occupation", "name": "埃森哲 总监（钻石客户管理咨询）", "startDate": "2003", "endDate": "2005" }
+  ],
   "knowsAbout": [
     "AI 管理者",
     "驾驭 AI 的管理者",

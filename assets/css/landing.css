@@ -114,6 +114,44 @@ h1 {
   margin: -6px 0 26px;
 }
 
+.path {
+  margin-top: 44px;
+  padding-top: 26px;
+  border-top: 1px solid var(--line);
+  max-width: 760px;
+}
+
+.path-label {
+  font-size: 12px;
+  letter-spacing: 0.14em;
+  color: var(--faint);
+  margin-bottom: 14px;
+}
+
+.path-list { list-style: none; }
+
+.path-list li {
+  display: grid;
+  grid-template-columns: 104px 1fr;
+  gap: 20px;
+  padding: 10px 0;
+  font-size: 15px;
+  line-height: 1.65;
+  border-bottom: 1px dashed rgba(22, 33, 30, 0.08);
+}
+
+.path-list li:last-child { border-bottom: 0; }
+
+.path-when {
+  font-size: 13px;
+  color: var(--faint);
+  font-variant-numeric: tabular-nums;
+  padding-top: 1px;
+}
+
+.path-what { color: var(--ink); }
+.path-what strong { font-weight: 600; color: var(--accent); }
+
 .hero-lead {
   font-size: 19px;
   line-height: 1.7;
@@ -546,4 +584,5 @@ h2 {
   .section { padding: 56px 0; }
   .stats { grid-template-columns: 1fr; }
   .five { grid-template-columns: 1fr; }
+  .path-list li { grid-template-columns: 1fr; gap: 2px; }
 }
