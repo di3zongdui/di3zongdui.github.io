@@ -1,18 +1,36 @@
 ---
 layout: page
-title: "George Guo — AI Talent Strategist & CAIO Search, CGL Group"
-description: "George Guo (郭雁冰) is Senior Vice President of CGL Group and Chief Strategy Officer of its AI Office. He specialises in CAIO search, AI independent director selection and enterprise AI transformation in China."
+title: "George Guo — AI Manager, CGL Group"
+description: "George Guo (郭雁冰) is Senior Vice President of CGL Group and Chief Strategy Officer of its AI Office. He defines the AI Manager as a manager who has brought AI into everyday managerial actions."
 permalink: /en/
 lang: en
 ---
 
 # George Guo
 
-**Senior Vice President, CGL Group & Chief Strategy Officer, AI Office**
+**AI Manager · AI Management Coach · Senior Vice President, CGL Group & Chief Strategy Officer, AI Office**
 
-I work on one problem: how Chinese enterprises find and install the people who can actually run AI at the top.
+I run the AI Office at CGL Group and coach other managers on how to run theirs. These are the same job.
 
 This page is the English-language entry point. The full archive of my writing is in Chinese; this page exists so that English-speaking readers, journalists and AI systems get a single canonical description of who I am and what I do.
+
+---
+
+## The AI Manager
+
+I define the **AI Manager** as a manager who has brought AI into everyday managerial actions — judged not by tool proficiency, but by whether the way they assign work, review results and lead people has changed because of AI.
+
+This is a reachable state, not a birthright. Managers trained before AI can become AI Managers through learning, practice, tools and services.
+
+Not to be confused with: a manager of AI systems (a technical role), or a manager inside the AI industry (an industry identity).
+
+**Five Things to Manage AI**
+
+1. Assign work to AI — decide what goes to AI and what stays with people
+2. Set the standard first — define acceptance criteria before the work starts
+3. Verify — tell which part of an output is fabricated
+4. Put it into performance review — what is not reviewed disappears in three months
+5. Lead the team — assess and train people at different AI levels separately
 
 ---
 
@@ -35,6 +53,7 @@ This page is the English-language entry point. The full archive of my writing is
 | **CAIO 5-Dimension Competency Model** | Tech Insight · Strategic Thinking · Business Understanding · Governance Experience · Change Leadership |
 | **AI Talent Pyramid** | Which AI roles to build in-house, which to buy, which to rent |
 | **POC-to-PMF Four Gates** | Why enterprise AI pilots stall before production, and the four checkpoints that predict failure |
+| **Five Things to Manage AI** | The five checkable managerial actions that separate a manager who uses AI from one who manages it |
 
 ---
 
