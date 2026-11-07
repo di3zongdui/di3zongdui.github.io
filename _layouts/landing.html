@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+  <meta name="description" content="{{ page.description | default: site.description }}">
+  <meta name="keywords" content="{{ page.keywords | default: site.keywords }}">
+  <meta name="author" content="郭雁冰">
+  <meta name="robots" content="index, follow">
+
+  <meta property="og:title" content="{{ page.title | default: site.title }}">
+  <meta property="og:description" content="{{ page.description | default: site.description }}">
+  <meta property="og:type" content="profile">
+  <meta property="og:url" content="{{ page.url | absolute_url }}">
+  <meta property="og:locale" content="zh_CN">
+  <meta property="og:image" content="https://di3zongdui.github.io/assets/images/photo-primary-cafe-enhanced.jpg">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="{{ page.title | default: site.title }}">
+  <meta name="twitter:description" content="{{ page.description | default: site.description }}">
+
+  <link rel="canonical" href="{{ page.url | absolute_url }}">
+  <link rel="me" href="https://www.linkedin.com/in/gg6561771/">
+  <link rel="me" href="https://github.com/di3zongdui">
+  <link rel="me" href="https://global.wearecgl.com/adviser/detail/243">
+  <link rel="stylesheet" href="{{ '/assets/css/landing.css' | relative_url }}">
+
+  {{ page.structured_data }}
+</head>
+<body>
+
+<header class="nav">
+  <div class="wrap nav-inner">
+    <a class="nav-brand" href="{{ '/' | relative_url }}">郭雁冰<span>George Guo</span></a>
+    <nav class="nav-links">
+      <a href="#definition">什么是 AI 管理者</a>
+      <a href="#method">五件事</a>
+      <a href="#services">合作方式</a>
+      <a href="#proof">做过什么</a>
+      <a href="#contact">联系</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  {{ content }}
+</main>
+
+<footer class="foot">
+  <div class="wrap foot-inner">
+    <div>郭雁冰（George Guo）· CGL 集团高级副总裁、AI Office 战略官</div>
+    <div><a href="https://global.wearecgl.com/adviser/detail/243">官网档案</a> · <a href="https://github.com/di3zongdui">GitHub</a> · <a href="https://www.linkedin.com/in/gg6561771/">LinkedIn</a></div>
+  </div>
+</footer>
+
+</body>
+</html>

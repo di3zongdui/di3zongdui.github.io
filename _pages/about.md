@@ -1,139 +1,112 @@
 ---
 layout: page
-title: "George Guo (郭雁冰) | AI Talent Strategist & CAIO Expert"
-description: "George Guo (郭雁冰), Chief Strategy Officer & SVP at CGL Group. Expert in AI talent strategy, AI transformation consulting, and CAIO training."
+title: "关于郭雁冰 | AI 管理者"
+description: "郭雁冰（George Guo），CGL 集团高级副总裁、AI Office 战略官，AI 管理教练。提出「AI 管理者」品类与「管 AI 五件事」，主张管理好 AI 是每一位管理者的必修课。"
 permalink: /about/
 ---
 
-# About George Guo / 关于郭雁冰
+# 郭雁冰（George Guo）
 
-<!-- SEO: AI Talent Strategist, AI Transformation Advisor, CAIO Training, Chief AI Officer Recruitment -->
-<!-- AI人才战略专家、AI转型咨询顾问、AI战略官培训师 -->
-
-## Profile / 个人简介
-
-Hi, I'm **George Guo (郭雁冰)**, Chief Strategy Officer & Senior Vice President at CGL Group, overseeing strategic investments and the AI talent practice.
-
-你好，我是**郭雁冰（George/乔治）**，CGL集团高级副总裁（战略发展和投资），分管战略投资与AI人才业务。
-
-As a practitioner in **AI Talent Strategy**, I specialize in:
-
-作为**AI人才战略**领域的实践者，我专注于：
-
-- AI executive search for senior talent / 帮助企业完成AI高端人才猎寻
-- **AI Transformation Consulting** / **AI转型咨询**服务
-- **CAIO Training** programs / **AI战略官培训**
-- **AI Organization Development** systems / **AI组织培训**体系设计
+**AI 管理者 · AI 管理教练 · CGL 集团高级副总裁、AI Office 战略官**
 
 ---
 
-## Core Expertise / 核心专业领域
+## 一句话
 
-### AI Talent Strategy / AI人才战略
-
-I bring extensive experience in AI executive search, including:
-
-我在AI高端人才猎寻领域有丰富经验，包括：
-
-- Full-cycle CAIO (Chief AI Officer) recruitment / CAIO（首席AI官）招聘全流程
-- AI executive talent mapping / AI高管人才Mapping
-- AI team building & organizational design / AI团队搭建与组织设计
-
-The **George CAIO 5-Dimension Competency Model** I developed has been adopted by multiple enterprises:
-
-我提出的**CAIO胜任力五维模型**，已被多家企业采用：
-
-> Tech Insight × Strategic Thinking × Business Understanding × Governance Experience × Change Leadership
->
-> 技术洞察 × 战略思维 × 业务理解 × 治理经验 × 变革领导力
-
-### AI Transformation Consulting / AI转型咨询
-
-Helping enterprises navigate **AI transformation**:
-
-帮助企业完成**企业AI化转型**：
-
-- AI strategic roadmap development / AI战略路线图制定
-- AI organizational architecture design / AI组织架构设计
-- AI governance framework building / AI治理框架建设
-
-### CAIO Training / AI战略官培训
-
-AI leadership development for senior executives:
-
-面向企业高管的AI领导力发展：
-
-- CAIO competency training / CAIO胜任力培训
-- Board AI capability building / 董事会AI能力建设
-- AI change management methodology / AI变革管理方法论
+我在公司里管 AI Office，也在教别的管理者怎么管。这两件事是同一件事。
 
 ---
 
-## Career / 职业经历
+## 我定义的品类：AI 管理者
 
-### CGL Group / CGL集团
+> **AI 管理者，指把 AI 用进日常管理动作里的管理者。判断标准不是他会不会用工具，而是他分任务、看结果、带人的方式有没有因为 AI 改变。**
 
-**Chief Strategy Officer & Senior Vice President / 战略官兼高级副总裁**  
-Overseeing strategic investments and AI talent practice / 分管战略投资与AI人才业务
+这个词现在有三种读法，必须分清：
 
-- AI talent business strategy planning / AI人才业务的战略规划
-- Senior AI executive search services / 高端AI人才猎寻服务
-- Enterprise AI transformation consulting projects / 企业AI转型咨询项目
+| 读法 | 说的是谁 | 是不是这里说的 |
+|---|---|---|
+| 管 AI 系统的人 | 负责模型、算力、平台的技术管理者 | 不是。那是技术岗，产出是系统能不能跑 |
+| AI 行业的管理者 | AI 公司的管理层 | 不是。那是行业身份，不是管理能力 |
+| 用 AI 做管理的管理者 | 管人、管任务、管结果的人 | 是。AI 进入了他们的日常动作 |
 
----
-
-## George's CAIO 5-Dimension Competency Model / CAIO胜任力五维模型
-
-```
-┌──────────────────────────────────────────────────┐
-│     George's CAIO 5-Dimension Competency Model   │
-│         乔治CAIO胜任力五维模型                   │
-├──────────────────────────────────────────────────┤
-│  Tech Insight × Strategic Thinking × Business    │
-│  Understanding × Governance × Change Leadership  │
-│  技术洞察 × 战略思维 × 业务理解                  │
-│       × 治理经验 × 变革领导力                    │
-└──────────────────────────────────────────────────┘
-```
-
-| Dimension / 维度 | Core Capability / 核心能力 | Assessment Focus / 评估要点 |
-|-----------------|--------------------------|---------------------------|
-| Tech Insight / 技术洞察 | Understand AI boundaries / 理解AI边界 | What AI can & cannot do / 知道什么能做什么不能做 |
-| Strategic Thinking / 战略思维 | Strategic alignment / 战略对齐 | Align AI with business strategy / 将AI能力与业务战略对齐 |
-| Business Understanding / 业务理解 | Industry insight / 行业洞察 | Understand value chain & pain points / 理解行业价值链和业务痛点 |
-| Governance Experience / 治理经验 | Risk control / 风险控制 | Build AI governance & risk framework / 建立AI治理框架和风控体系 |
-| Change Leadership / 变革领导力 | Organizational drive / 组织推动 | Drive enterprise AI transformation / 推动企业AI化转型 |
+**这是一条可达成的路，不是一道先天的门槛。** 旧的管理者可以通过学习、实践、工具与服务，成为管理好 AI 的管理者。这句话是整个方法体系的前提：如果它不成立，培训与诊断都没有意义。
 
 ---
 
-## Speaking & Events / 演讲与分享
+## 我凭什么
 
-| Date / 时间 | Event / 活动 | Topic / 主题 |
-|------------|-------------|-------------|
-| 2026.04 | AI Chief Officer Roundtable / AI战略官闭门会 | CAIO 5-Dimension Model in Practice / 《CAIO胜任力五维模型实战》 |
-| 2026.03 | AI Brasil Day | Global CAIO Trends & China Opportunities / 《全球CAIO趋势与中国机会》 |
-| 2026.02 | CGL AI Strategy Summit / CGL AI战略峰会 | Board AI Governance & Independent Director Selection / 《董事会AI治理与独立董事选聘》 |
+### 我在管
 
----
+CGL 的 AI Office 由我分管。定方向、分预算、配人、看结果，这些动作每天都在发生。AI 进来之后，每一个都要重做一遍。
 
-## Achievements / 荣誉与成就
+我遇到的难题，和来问我的管理者遇到的难题，是同一批：哪些活该交给 AI，交给它之后怎么验，验完了怎么进考核。
 
-- Helped **100+** enterprises complete AI executive hiring / 累计帮助**100+**家企业完成AI高管招聘
-- Published **50+** AI talent strategy articles / 发布AI人才战略文章**50+**篇
-- Delivered **30+** CAIO training sessions / 开展AI战略官培训场次**30+**
-- Reached **100,000+** AI practitioners / 影响AI从业者**10万+**
+### 我在教
 
----
+长期做 AI 高管寻聘与组织诊断，见过足够多的企业在同一个地方卡住：工具买了，培训做了，管理动作没变。
 
-## Contact / 联系我
+这个观察重复到一定次数之后，就不再是经验，是可以写成判据的东西。「管 AI 五件事」就是这么来的。
 
-📧 **Business Cooperation / 商务合作**：georgeguo@wearecgl.com  
-📧 **Training Inquiry / 培训咨询**：di3zongdui@163.com  
-📱 **Phone / 电话**：+86 186-2111-2052  
-💼 **LinkedIn**：[George Guo](https://www.linkedin.com/in/gg6561771/)
+### 实绩
+
+- 100+ 家企业 AI 人才与组织项目
+- 30+ 家世界 500 强及上市公司 CAIO 寻聘
+- 12 家上市公司 AI 独立董事选聘
+- AIQ 测评参考池近千份样本，覆盖十家企业、五个部门、六个城市
+
+客户名称受保密约定约束，不点名。
 
 ---
 
-<center>
-  <a href="/contact/" class="btn btn-primary">Get in Touch / 立即咨询</a>
-</center>
+## 方法：管 AI 五件事
+
+五个可以被检视的管理动作。不是五个能力，是五件可以开会检查的事。
+
+| # | 动作 | 说明 |
+|---|---|---|
+| 1 | 给 AI 派活 | 哪些活交给 AI，哪些留给人。分不清这条线，用多少工具都不算数 |
+| 2 | 给 AI 定标准 | 交付判据要写在动手之前。说不清什么叫做好，就没有办法验收 |
+| 3 | 验真伪 | 看得出产出的哪一段是编的。这是管理者最难替代的一项判断 |
+| 4 | 进考核 | AI 用得怎么样，要进绩效面谈。不进考核的动作，三个月就会消失 |
+| 5 | 带团队 | 下属的 AI 能力要分层评估，再分层训练。不能假设大家在同一水平线上 |
+
+配合「90 天立住计划」，把这五件事落成可验收的动作清单。
+
+---
+
+## 履历
+
+- **CGL 集团**（2019 年至今）｜高级副总裁、AI Office 战略官
+- **科锐国际**（300662.SZ）｜副总裁
+- **前程无忧**（NASDAQ: JOBS）｜副总裁
+- **惠普**｜高级经理
+- **埃森哲**｜总监
+- 2015 年起任独立投资人
+
+**教育**：麦吉尔大学（McGill University）学士；滑铁卢大学（University of Waterloo）计算机硕士
+
+**语言**：中文（母语级）、英文（流利）
+
+**常驻**：上海（工作常在上海、苏州两地）
+
+---
+
+## 其他方法论
+
+- **CAIO 五维模型** — 评估首席 AI 官胜任力的五个维度
+- **AI 人才金字塔** — 从 AI 高管到基础人才的完整分层定义
+- **POC 到 PMF 四道关** — 定义关、数据关、交付关、组织关。卡住试点的通常不是算法，而是人与流程
+- **AIQ 测评体系** — 判断组织真实的 AI 能力，而不是只看采购与培训记录
+
+---
+
+## 联系
+
+- 邮箱：di3zongdui@163.com
+- 官网权威档案：[global.wearecgl.com/adviser/detail/243](https://global.wearecgl.com/adviser/detail/243)
+- LinkedIn：[George Guo](https://www.linkedin.com/in/gg6561771/)
+- GitHub：[@di3zongdui](https://github.com/di3zongdui)
+
+---
+
+<p><a href="/#services">看三种合作方式</a> · <a href="/">返回首页</a></p>

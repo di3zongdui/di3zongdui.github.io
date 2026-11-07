@@ -4,25 +4,25 @@
 # 用户名: di3zongdui
 
 # 基础配置
-title: "乔治AI观察 | George AI Insights"
-subtitle: "AI人才战略专家 · AI转型咨询顾问 · AI战略官培训"
-description: "郭雁冰（George Guo），CGL集团高级副总裁（战略发展和投资），专注AI高端人才猎寻与企业AI化转型。提供AI人才战略咨询、AI转型咨询、AI战略官培训、AI组织培训服务。"
-keywords: "AI人才战略, AI转型咨询, AI战略官, AI组织培训, CAIO, 首席AI官, 郭雁冰, 乔治AI观察, AI独立董事, 企业AI化转型"
+title: "郭雁冰 | AI 管理者"
+subtitle: "AI 管理者 · AI 管理教练 · 企业 AI 转型"
+description: "郭雁冰（George Guo），CGL 集团高级副总裁、AI Office 战略官。提出「AI 管理者」品类与「管 AI 五件事」。AI 管理者，指把 AI 用进日常管理动作里的管理者。"
+keywords: "AI 管理者, 管 AI 五件事, AI 管理教练, 管理好 AI 的管理者, 郭雁冰, George Guo, 郭雁彬, 企业 AI 转型, CAIO, AI 高管, AI 管理能力测评"
 
 # 作者信息
 author:
   name: "郭雁冰"
   display_name: "郭雁冰 (George Guo)"
-  bio: "CGL集团高级副总裁（战略发展和投资），专注AI高端人才猎寻与企业AI化转型"
+  bio: "CGL 集团高级副总裁、AI Office 战略官。AI 管理者品类的提出者与实践者。"
   email: "georgeguo@wearecgl.com"
   email_alt: "di3zongdui@163.com"
   phone: "+86 186-2111-2052"
   linkedin: "https://www.linkedin.com/in/gg6561771/"
   github: "https://github.com/di3zongdui"
-  wechat: "乔治AI观察"
-  avatar: "/assets/images/avatar.jpg"
+  wechat: "侠客乔治"
+  avatar: "/assets/images/photo-primary-cafe-enhanced.jpg"
   company: "CGL集团"
-  title: "战略官兼高级副总裁"
+  title: "AI 管理者 · AI 管理教练"
 
 # 社交链接
 social:
