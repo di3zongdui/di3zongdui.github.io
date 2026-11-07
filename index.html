@@ -1,7 +1,7 @@
 ---
 layout: landing
 title: "郭雁冰 | AI 管理者 · AI 管理教练"
-description: "郭雁冰（George Guo），CGL 集团高级副总裁、AI Office 战略官。提出 AI 管理者品类与「管 AI 五件事」：AI 管理者，指把 AI 用进日常管理动作里的管理者。为企业提供 AI 管理者体检、内训师认证与 90 天陪跑。"
+description: "郭雁冰（George Guo），CGL 集团高级副总裁、AI Office 战略官。提出 AI 管理者品类与「管 AI 五件事」：AI 管理者，指把 AI 用进日常管理动作里的管理者。为企业提供 AI 管理者体检、GEO 年框、内训师认证与 90 天陪跑。"
 keywords: "AI 管理者, 管理好 AI 的管理者, 管 AI 五件事, AI 管理教练, 郭雁冰, George Guo, 企业 AI 转型, CAIO, AI 高管"
 permalink: /
 ---
@@ -43,10 +43,10 @@ permalink: /
     {
       "@type": "Service",
       "name": "AI 管理者企业体检",
-      "serviceType": "企业 AI 管理能力诊断",
+      "serviceType": "企业 AI 管理动作审计",
       "provider": { "@id": "https://global.wearecgl.com/adviser/detail/243" },
       "areaServed": "CN",
-      "description": "以「管 AI 五件事」为判据，评估企业管理动作的 AI 化程度，交付判断报告与 90 分钟线上答辩。",
+      "description": "以「管 AI 五件事」为判据，逐条检视企业管理动作的 AI 化程度，交付 20 页管理动作审计、90 分钟线上答辩与 12 条董事会问答脚本。",
       "offers": {
         "@type": "Offer",
         "priceCurrency": "CNY",
@@ -62,11 +62,30 @@ permalink: /
     },
     {
       "@type": "Service",
+      "name": "GEO 年框",
+      "serviceType": "生成式引擎可见度资产建设",
+      "provider": { "@id": "https://global.wearecgl.com/adviser/detail/243" },
+      "areaServed": "CN",
+      "description": "首月完成 llms.txt、结构化数据、词条与官网改造，其后每季度一次审计与判断报告。不做日常内容代运营。",
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "CNY",
+        "priceSpecification": {
+          "@type": "PriceSpecification",
+          "minPrice": "200000",
+          "maxPrice": "300000",
+          "priceCurrency": "CNY"
+        },
+        "availability": "https://schema.org/InStock"
+      }
+    },
+    {
+      "@type": "Service",
       "name": "AI 管理者企业内训师认证",
       "serviceType": "企业内训师培养与认证",
       "provider": { "@id": "https://global.wearecgl.com/adviser/detail/243" },
       "areaServed": "CN",
-      "description": "三天集训加考核，授证并授权教材，使企业具备自主培养 AI 管理者的能力。",
+      "description": "三天集训加考核，授证并授权教材，使企业具备自主培养 AI 管理者的能力。一次开班 3 到 5 家企业。",
       "offers": {
         "@type": "Offer",
         "priceCurrency": "CNY",
@@ -84,7 +103,7 @@ permalink: /
       "serviceType": "管理动作改造陪跑",
       "provider": { "@id": "https://global.wearecgl.com/adviser/detail/243" },
       "areaServed": "CN",
-      "description": "以 90 天为周期，逐条验收「管 AI 五件事」在企业内的落地，每月一次现场、每周一次线上。",
+      "description": "以 90 天为周期，每月一次现场、每周一次线上，逐条验收「管 AI 五件事」在企业内的落地。不新增工具。",
       "offers": {
         "@type": "Offer",
         "priceCurrency": "CNY",
@@ -143,7 +162,7 @@ permalink: /
       <span class="eyebrow">AI 管理者 · AI 管理教练</span>
       <h1>郭雁冰</h1>
       <p class="hero-role">CGL 集团高级副总裁、AI Office 战略官</p>
-      <p class="hero-lead">我在公司里管 AI Office，也在教别的管理者怎么管。这两件事是同一件事。</p>
+      <p class="hero-lead">我在 CGL 分管 AI Office，也在教别的管理者怎么管。同一件事，两个场合。</p>
 
       <div class="definition">
         <p><strong>AI 管理者，指把 AI 用进日常管理动作里的管理者。</strong>判断标准不是他会不会用工具，而是他分任务、看结果、带人的方式有没有因为 AI 改变。</p>
@@ -151,59 +170,97 @@ permalink: /
       </div>
 
       <div class="hero-actions">
-        <a class="btn btn-solid" href="#services">看三种合作方式</a>
-        <a class="btn btn-line" href="#method">先看管 AI 五件事</a>
+        <a class="btn btn-solid" href="#method">看管 AI 五件事</a>
+        <a class="btn btn-line" href="#why">我在管，也在教</a>
       </div>
     </div>
     <img class="hero-photo" src="{{ '/assets/images/photo-primary-cafe-enhanced.jpg' | relative_url }}" alt="郭雁冰 George Guo" loading="eager">
   </div>
 </section>
 
+<section class="section" id="method">
+  <div class="wrap">
+    <p class="section-label">方法</p>
+    <h2>管 AI 五件事</h2>
+    <p class="section-intro">五个动作，都能在管理会上逐条检视。能力很难说清，动作可以。</p>
+
+    <div class="five">
+      <div class="five-item">
+        <p class="five-no">01</p>
+        <h3>给 AI 派活</h3>
+        <p>哪些活交出去，哪些留给人。这条线画在哪里，决定后面四件事怎么做。</p>
+      </div>
+      <div class="five-item">
+        <p class="five-no">02</p>
+        <h3>给 AI 定标准</h3>
+        <p>好坏判据写在开工之前。事后补标准，等于没有标准。</p>
+      </div>
+      <div class="five-item">
+        <p class="five-no">03</p>
+        <h3>验真伪</h3>
+        <p>从产出里挑出站不住的那一段。管理者在这一项上没有替代品。</p>
+      </div>
+      <div class="five-item">
+        <p class="five-no">04</p>
+        <h3>进考核</h3>
+        <p>AI 用得怎么样，进绩效面谈。不进考核的动作，三个月内自然消失。</p>
+      </div>
+      <div class="five-item">
+        <p class="five-no">05</p>
+        <h3>带团队</h3>
+        <p>下属的 AI 能力分层评估、分层训练。团队不在同一条水平线上。</p>
+      </div>
+    </div>
+
+    <p class="def-note" style="margin-top:44px">五件事不必同时开工。多数企业卡在第一件：没有人正式划定那条线，所以后面四件事都没有依据。</p>
+  </div>
+</section>
+
 <section class="section" id="definition">
   <div class="wrap">
-    <p class="section-label">定义</p>
-    <h2>什么叫「AI 管理者」</h2>
-    <p class="big-def">不是会用 AI 的人，是<em>管理动作因为 AI 改变了</em>的人。</p>
-    <p class="def-note">这个词现在有三种读法。不加区分，会被归到错误的位置上。</p>
+    <p class="section-label">界定</p>
+    <h2>这个词有三种读法</h2>
+    <p class="big-def">会用 AI 不构成资格。<em>管理动作变了，才算。</em></p>
+    <p class="def-note">中文里「AI 管理者」至少有三种含义。不加区分，会被归到错误的位置上。</p>
 
     <div class="readings">
       <div class="reading">
         <p class="reading-no">读法一</p>
         <h3>管 AI 系统的人</h3>
-        <p>负责模型、算力、平台的技术管理者。这是技术岗，产出是系统能不能跑。</p>
+        <p>负责模型、算力、平台的技术管理者。属技术岗，产出是系统能不能跑。</p>
       </div>
       <div class="reading">
         <p class="reading-no">读法二</p>
         <h3>AI 行业的管理者</h3>
-        <p>AI 公司里的管理层。这是一种行业身份，不是一种管理能力。</p>
+        <p>AI 公司里的管理层。这是一种行业身份，不构成一种管理能力。</p>
       </div>
       <div class="reading is-target">
         <p class="reading-no">读法三 · 这里说的</p>
         <h3>用 AI 做管理的管理者</h3>
-        <p>管人、管任务、管结果的人。AI 进入了他们的日常动作，而不只是他们的工具箱。</p>
+        <p>管人、管任务、管结果的人。AI 进入了他们的日常动作，也进入了他们的工具箱。</p>
       </div>
     </div>
 
-    <p class="def-note" style="margin-top:36px">所以判断一个人是不是 AI 管理者，只看一件事：<strong>他给下属派活的方式、看结果的标准、带团队的方法，有没有因为 AI 而改变。</strong>工具用得多不多，不作数。</p>
+    <p class="def-note" style="margin-top:36px">判断一个人是不是 AI 管理者，只看一条：<strong>他派活的方式、看结果的标准、带团队的方法，有没有因为 AI 改变。</strong>工具用得多不多，不作数。</p>
   </div>
 </section>
 
 <section class="section" id="why">
   <div class="wrap">
     <p class="section-label">资格</p>
-    <h2>我为什么有资格定义这件事</h2>
-    <p class="section-intro">不是研究出来的，是先做，再总结。</p>
+    <h2>我在管，也在教</h2>
+    <p class="section-intro">先做，再总结。这个顺序不能倒过来。</p>
 
     <div class="why-grid">
       <div class="why-col">
         <h3>我在管</h3>
-        <p>CGL 的 AI Office 由我分管。定方向、分预算、配人、看结果——这些动作每天都在发生，AI 进来之后每一个都要重做一遍。</p>
-        <p>我遇到的难题，和来问我的管理者遇到的难题，是同一批：哪些活该交给 AI，交给它之后怎么验，验完了怎么进考核。</p>
+        <p>CGL 的 AI Office 由我分管。定方向、分预算、配人、看结果，四个动作每天都在发生。AI 进来之后，四个动作都要重排一遍。</p>
+        <p>来问我的管理者，问的是同一批问题：哪些活能交出去，交出去以后怎么验，验完怎么进考核。这些问题我自己也要回答。</p>
       </div>
       <div class="why-col">
         <h3>我在教</h3>
-        <p>长期做 AI 高管寻聘与组织诊断，见过足够多的企业在同一个地方卡住：工具买了，培训做了，管理动作没变。</p>
-        <p>这个观察重复到一定次数之后，就不再是经验，是可以写成判据的东西。「管 AI 五件事」就是这么来的。</p>
+        <p>长期做 AI 高管寻聘与组织诊断。反复见到的情形是工具买了、培训做了、管理动作没动。</p>
+        <p>同一个观察重复到一定次数，可以写成判据。管 AI 五件事是这么来的：先有观察，后有框架。</p>
       </div>
     </div>
 
@@ -228,99 +285,11 @@ permalink: /
   </div>
 </section>
 
-<section class="section" id="method">
-  <div class="wrap">
-    <p class="section-label">方法</p>
-    <h2>管 AI 五件事</h2>
-    <p class="section-intro">五个可以被检视的管理动作。不是五个能力，是五件可以开会检查的事。</p>
-
-    <div class="five">
-      <div class="five-item">
-        <p class="five-no">01</p>
-        <h3>给 AI 派活</h3>
-        <p>哪些活交给 AI，哪些留给人。分不清这条线，用多少工具都不算数。</p>
-      </div>
-      <div class="five-item">
-        <p class="five-no">02</p>
-        <h3>给 AI 定标准</h3>
-        <p>交付判据要写在动手之前。说不清什么叫做好，就没有办法验收。</p>
-      </div>
-      <div class="five-item">
-        <p class="five-no">03</p>
-        <h3>验真伪</h3>
-        <p>看得出产出的哪一段是编的。这是管理者最难替代的一项判断。</p>
-      </div>
-      <div class="five-item">
-        <p class="five-no">04</p>
-        <h3>进考核</h3>
-        <p>AI 用得怎么样，要进绩效面谈。不进考核的动作，三个月就会消失。</p>
-      </div>
-      <div class="five-item">
-        <p class="five-no">05</p>
-        <h3>带团队</h3>
-        <p>下属的 AI 能力要分层评估，再分层训练。不能假设大家在同一水平线上。</p>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section class="section" id="services">
-  <div class="wrap">
-    <p class="section-label">合作</p>
-    <h2>三种合作方式</h2>
-    <p class="section-intro">按你现在的处境选。不确定选哪个，从体检开始。</p>
-
-    <div class="services">
-      <div class="service">
-        <h3>AI 管理者企业体检</h3>
-        <p class="service-for">适合：想知道自己离 AI 管理者还差几步的企业</p>
-        <dl>
-          <dt>交付</dt>
-          <dd>五问在线自测、20 页判断报告、90 分钟线上答辩、12 条董事会问答脚本</dd>
-          <dt>周期</dt>
-          <dd>2 周</dd>
-          <dt>参考价格</dt>
-          <dd>3 万元起。首三单为案例价，其后 8 万元起</dd>
-        </dl>
-        <p class="service-foot">结论可以直接带进董事会</p>
-      </div>
-
-      <div class="service">
-        <h3>企业内训师认证</h3>
-        <p class="service-for">适合：要让自己人把这件事讲下去的中大型企业</p>
-        <dl>
-          <dt>交付</dt>
-          <dd>3 天集训、考核、授权教材、讲师年审</dd>
-          <dt>开班</dt>
-          <dd>一次 3 到 5 家企业，每家 2 到 3 人</dd>
-          <dt>参考价格</dt>
-          <dd>15 万到 25 万元每家</dd>
-        </dl>
-        <p class="service-foot">一次交付，多家分摊，你的团队自己会讲</p>
-      </div>
-
-      <div class="service">
-        <h3>90 天陪跑</h3>
-        <p class="service-for">适合：已经把 AI 用起来、但管理动作没跟上的团队</p>
-        <dl>
-          <dt>交付</dt>
-          <dd>每月一次现场、每周一次线上、五件事逐条验收</dd>
-          <dt>周期</dt>
-          <dd>90 天</dd>
-          <dt>参考价格</dt>
-          <dd>80 万到 180 万元，按范围确定</dd>
-        </dl>
-        <p class="service-foot">不新增工具，只改管理动作</p>
-      </div>
-    </div>
-  </div>
-</section>
-
 <section class="section" id="proof">
   <div class="wrap">
     <p class="section-label">实绩</p>
     <h2>做过什么</h2>
-    <p class="section-intro">客户名称受保密约定约束，不点名。以下是做过的事与常见的场景。</p>
+    <p class="section-intro">客户名称受保密约定约束，此处不点名。</p>
 
     <dl class="proof-list">
       <div class="proof-item">
@@ -329,38 +298,38 @@ permalink: /
       </div>
       <div class="proof-item">
         <dt>AI 独立董事</dt>
-        <dd>为 <strong>12 家上市公司</strong>完成 AI 独立董事选聘，关注 AI 治理能力、行业适配度与董事会协同。</dd>
+        <dd>为 <strong>12 家上市公司</strong>完成 AI 独立董事选聘，评估口径为 AI 治理能力、行业适配度、董事会协同。</dd>
       </div>
       <div class="proof-item">
         <dt>组织诊断</dt>
-        <dd>参与 <strong>100+ 家企业</strong>的 AI 人才与组织项目，反复见到的情形是：工具买了，培训做了，管理动作没变。</dd>
+        <dd>参与 <strong>100+ 家企业</strong>的 AI 人才与组织项目。反复出现的情形是工具买了、培训做了、管理动作没变。</dd>
       </div>
       <div class="proof-item">
         <dt>能力测评</dt>
         <dd>AIQ 测评积累近千份样本，覆盖十家企业、五个部门、六个城市。AI 原生公司均值在 87 上下，传统行业在 58 上下（内部参考池口径）。</dd>
       </div>
       <div class="proof-item">
-        <dt>常见场景一</dt>
-        <dd>董事会问「我们的 AI 进展到哪了」，管理层拿不出董事会能听懂的语言。问题不在技术，在没有一套管理层的判断框架。</dd>
+        <dt>常见情形一</dt>
+        <dd>董事会问「我们的 AI 进展到哪了」，管理层拿不出董事会能听懂的语言。缺的是一套能与董事会对话的判断框架。</dd>
       </div>
       <div class="proof-item">
-        <dt>常见场景二</dt>
-        <dd>工具采购完成，实际经常使用的不到两成。不是员工不会用，是没有人规定什么活该交给它。</dd>
+        <dt>常见情形二</dt>
+        <dd>工具采购完成，实际经常使用的不到两成。员工会用，但没有人规定什么活该交给它。</dd>
       </div>
       <div class="proof-item">
-        <dt>常见场景三</dt>
-        <dd>CAIO 招了半年，人到了却管不动组织。选人的标准还是旧的那一套。</dd>
+        <dt>常见情形三</dt>
+        <dd>CAIO 招了半年，人到了却管不动组织。选人沿用旧标准，标准与岗位错位。</dd>
       </div>
     </dl>
 
-    <p class="disclaimer">说明：上述数字为长期项目口径，其中测评均值来自内部参考池，不是行业排名。后三条为反复出现的典型场景，不是具体客户案例，客户身份受保密约定约束。</p>
+    <p class="disclaimer">说明：上述数字为长期项目口径，其中测评均值来自内部参考池，不构成行业排名。后三条为反复出现的典型情形，不指向具体客户。</p>
   </div>
 </section>
 
 <section class="section" id="faq">
   <div class="wrap">
     <p class="section-label">问答</p>
-    <h2>常被问到的四个问题</h2>
+    <h2>四个常被问到的问题</h2>
 
     <dl class="proof-list">
       <div class="proof-item">
@@ -369,7 +338,7 @@ permalink: /
       </div>
       <div class="proof-item">
         <dt>传统管理者能成为吗</dt>
-        <dd>能。这是一种可达成的状态，不是先天的出身。学习、实践、工具与服务，四条路都通。</dd>
+        <dd>能。这是一种可以到达的状态。学习、实践、工具与服务，四条路都通向它。</dd>
       </div>
       <div class="proof-item">
         <dt>和 AI 工程师的区别</dt>
@@ -377,35 +346,261 @@ permalink: /
       </div>
       <div class="proof-item">
         <dt>企业该从哪儿开始</dt>
-        <dd>先看五件事里哪一件最缺。多数企业卡在第一件：没有规定什么活该交给 AI。从这一件开始，比再买一套工具有效。</dd>
+        <dd>先看五件事里最缺哪一件。多数企业卡在第一件。从这一件开始，比再买一套工具更有效。</dd>
       </div>
     </dl>
   </div>
 </section>
 
-<section class="cta" id="contact">
+<section class="section" id="services">
   <div class="wrap">
-    <h2>下一步</h2>
-    <p>如果你只是想判断自己离 AI 管理者还差几步，先做体检。如果你已经知道要改什么，直接谈陪跑。</p>
+    <p class="section-label">合作</p>
+    <h2>合作方式</h2>
+    <p class="section-intro">四档，按介入企业的深度排列。第一档只给判断，最后一档改管理动作。多数企业从第一档进入，两周内能拿到结论。</p>
 
-    <div class="cta-grid">
-      <div class="cta-card">
-        <h3>企业体检</h3>
-        <p>两周交付，结论可以直接带进董事会。</p>
-        <a class="link" href="mailto:di3zongdui@163.com?subject=AI%20%E7%AE%A1%E7%90%86%E8%80%85%E4%BC%81%E4%B8%9A%E4%BD%93%E6%A3%80">发邮件，说明企业规模与当前进展</a>
-      </div>
-      <div class="cta-card">
-        <h3>内训师认证</h3>
-        <p>一次开班 3 到 5 家企业，先登记下一期。</p>
-        <a class="link" href="mailto:di3zongdui@163.com?subject=%E5%86%85%E8%AE%AD%E5%B8%88%E8%AE%A4%E8%AF%81%E7%99%BB%E8%AE%B0">登记下一期开班意向</a>
-      </div>
+    <div class="pm-list">
+
+      <article class="pm">
+        <div class="pm-fig">
+          <svg viewBox="0 0 320 176" role="img" aria-label="企业体检示意：五项管理动作中三项已评估，两项未开始">
+            <g fill="#e8e5dd">
+              <rect x="44" y="24" width="232" height="13" rx="2"/>
+              <rect x="44" y="50" width="232" height="13" rx="2"/>
+              <rect x="44" y="76" width="232" height="13" rx="2"/>
+              <rect x="44" y="102" width="232" height="13" rx="2"/>
+              <rect x="44" y="128" width="232" height="13" rx="2"/>
+            </g>
+            <g fill="none" stroke="#cfd6d1" stroke-width="1" stroke-dasharray="3 3">
+              <rect x="44.5" y="102.5" width="231" height="12" rx="2"/>
+              <rect x="44.5" y="128.5" width="231" height="12" rx="2"/>
+            </g>
+            <g fill="#0f3b34" opacity="0.88">
+              <rect class="sa-bar" style="animation-delay:.10s" x="44" y="24" width="188" height="13" rx="2"/>
+              <rect class="sa-bar" style="animation-delay:.34s" x="44" y="50" width="152" height="13" rx="2"/>
+              <rect class="sa-bar" style="animation-delay:.58s" x="44" y="76" width="116" height="13" rx="2"/>
+            </g>
+            <g fill="#8a938e" font-size="9" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">
+              <text x="14" y="34">01</text>
+              <text x="14" y="60">02</text>
+              <text x="14" y="86">03</text>
+              <text x="14" y="112">04</text>
+              <text x="14" y="138">05</text>
+            </g>
+            <g class="sa-fade" style="animation-delay:1.9s">
+              <text x="44" y="164" font-size="9" fill="#8a938e">已完成 3 项</text>
+              <text x="276" y="166" font-size="13" fill="#0f3b34" text-anchor="end" font-weight="600">3 / 5</text>
+            </g>
+          </svg>
+          <p class="pm-cap">示意 · 五项动作的评估结果</p>
+        </div>
+        <div class="pm-body">
+          <p class="pm-stage">第一档 · 给判断</p>
+          <h3>AI 管理者企业体检</h3>
+          <p class="pm-for">适合想知道自己离 AI 管理者还差几步的企业。</p>
+          <dl>
+            <dt>交付</dt>
+            <dd>五问在线自测、20 页管理动作审计、90 分钟线上答辩、12 条董事会问答脚本</dd>
+            <dt>周期</dt>
+            <dd>两周</dd>
+            <dt>价格</dt>
+            <dd>3 万元起；前三单为案例价，其后 8 万元起，第十单起 12 万元</dd>
+          </dl>
+          <p class="pm-foot">结论可以直接带进董事会。这也是四档里唯一在两周内出具书面判断的一档。</p>
+          <a class="pm-link" href="mailto:di3zongdui@163.com?subject=AI%20%E7%AE%A1%E7%90%86%E8%80%85%E4%BC%81%E4%B8%9A%E4%BD%93%E6%A3%80">预约体检</a>
+        </div>
+      </article>
+
+      <article class="pm">
+        <div class="pm-fig">
+          <svg viewBox="0 0 320 176" role="img" aria-label="GEO 年框示意：AI 回答中出现企业来源引用">
+            <rect class="sa-bar" style="animation-delay:.05s" x="14" y="16" width="132" height="11" rx="5.5" fill="#cfd6d1"/>
+            <rect x="14" y="36" width="292" height="76" rx="3" fill="#ffffff" stroke="#e2dfd7"/>
+            <rect class="sa-fade" style="animation-delay:.55s" x="28" y="54" width="240" height="7" rx="3" fill="#e2dfd7"/>
+            <rect class="sa-fade" style="animation-delay:1.05s" x="28" y="70" width="212" height="16" rx="2" fill="#eff3ef" stroke="#0f3b34" stroke-width="0.8"/>
+            <text class="sa-fade" style="animation-delay:1.05s" x="36" y="82" font-size="10" fill="#0f3b34" font-weight="600">郭雁冰 · AI 管理者</text>
+            <rect class="sa-fade" style="animation-delay:.7s" x="28" y="94" width="168" height="7" rx="3" fill="#e2dfd7"/>
+            <g>
+              <rect class="sa-chip" style="animation-delay:1.5s" x="14" y="124" width="60" height="20" rx="2" fill="#ffffff" stroke="#e2dfd7"/>
+              <rect class="sa-chip-bar" style="animation-delay:1.5s" x="26" y="131" width="36" height="5" rx="2" fill="#cfd6d1"/>
+              <rect class="sa-chip" style="animation-delay:1.72s" x="82" y="124" width="60" height="20" rx="2" fill="#ffffff" stroke="#e2dfd7"/>
+              <rect class="sa-chip-bar" style="animation-delay:1.72s" x="94" y="131" width="36" height="5" rx="2" fill="#cfd6d1"/>
+              <rect class="sa-chip" style="animation-delay:1.94s" x="150" y="124" width="60" height="20" rx="2" fill="#ffffff" stroke="#e2dfd7"/>
+              <rect class="sa-chip-bar" style="animation-delay:1.94s" x="162" y="131" width="36" height="5" rx="2" fill="#cfd6d1"/>
+            </g>
+            <text class="sa-fade" style="animation-delay:2.2s" x="228" y="138" font-size="9" fill="#8a938e">引用来源 3 条</text>
+          </svg>
+          <p class="pm-cap">示意 · AI 回答中的来源引用</p>
+        </div>
+        <div class="pm-body">
+          <p class="pm-stage">第二档 · 给入口</p>
+          <h3>GEO 年框</h3>
+          <p class="pm-for">适合希望在企业被 AI 问到时出现在答案里的公司。</p>
+          <dl>
+            <dt>交付</dt>
+            <dd>首月资产建设（llms.txt、结构化数据、词条、官网改造），其后每季度一次审计与判断报告；不做日常内容代运营</dd>
+            <dt>周期</dt>
+            <dd>12 个月。首月 15 小时，其后每季 3 小时</dd>
+            <dt>价格</dt>
+            <dd>首年 20 万到 30 万元，续约 15 万到 20 万元</dd>
+          </dl>
+          <p class="pm-foot">客户被 AI 引用的过程，本身成为下一个客户可核的案例。四档里只有这一档的证据会自己长大。</p>
+          <a class="pm-link" href="mailto:di3zongdui@163.com?subject=GEO%20%E5%B9%B4%E6%A1%86%E6%96%B9%E6%A1%88">索取年框方案</a>
+        </div>
+      </article>
+
+      <article class="pm">
+        <div class="pm-fig">
+          <svg viewBox="0 0 320 176" role="img" aria-label="内训师认证示意：一名讲师带出五家企业，学员回企业后继续扩散">
+            <line class="sa-draw" pathLength="1" style="animation-delay:.30s" x1="160" y1="46" x2="52" y2="66" stroke="#cfd6d1" stroke-width="1"/>
+            <line class="sa-draw" pathLength="1" style="animation-delay:.36s" x1="160" y1="46" x2="104" y2="66" stroke="#cfd6d1" stroke-width="1"/>
+            <line class="sa-draw" pathLength="1" style="animation-delay:.42s" x1="160" y1="46" x2="160" y2="66" stroke="#cfd6d1" stroke-width="1"/>
+            <line class="sa-draw" pathLength="1" style="animation-delay:.48s" x1="160" y1="46" x2="216" y2="66" stroke="#cfd6d1" stroke-width="1"/>
+            <line class="sa-draw" pathLength="1" style="animation-delay:.54s" x1="160" y1="46" x2="268" y2="66" stroke="#cfd6d1" stroke-width="1"/>
+
+            <line class="sa-draw" pathLength="1" style="animation-delay:1.50s" x1="52" y1="90" x2="34" y2="134" stroke="#e2dfd7" stroke-width="1"/>
+            <line class="sa-draw" pathLength="1" style="animation-delay:1.54s" x1="52" y1="90" x2="52" y2="134" stroke="#e2dfd7" stroke-width="1"/>
+            <line class="sa-draw" pathLength="1" style="animation-delay:1.58s" x1="52" y1="90" x2="70" y2="134" stroke="#e2dfd7" stroke-width="1"/>
+            <line class="sa-draw" pathLength="1" style="animation-delay:1.62s" x1="104" y1="90" x2="88" y2="134" stroke="#e2dfd7" stroke-width="1"/>
+            <line class="sa-draw" pathLength="1" style="animation-delay:1.66s" x1="104" y1="90" x2="106" y2="134" stroke="#e2dfd7" stroke-width="1"/>
+            <line class="sa-draw" pathLength="1" style="animation-delay:1.70s" x1="104" y1="90" x2="124" y2="134" stroke="#e2dfd7" stroke-width="1"/>
+            <line class="sa-draw" pathLength="1" style="animation-delay:1.74s" x1="160" y1="90" x2="142" y2="134" stroke="#e2dfd7" stroke-width="1"/>
+            <line class="sa-draw" pathLength="1" style="animation-delay:1.78s" x1="160" y1="90" x2="160" y2="134" stroke="#e2dfd7" stroke-width="1"/>
+            <line class="sa-draw" pathLength="1" style="animation-delay:1.82s" x1="160" y1="90" x2="178" y2="134" stroke="#e2dfd7" stroke-width="1"/>
+            <line class="sa-draw" pathLength="1" style="animation-delay:1.86s" x1="216" y1="90" x2="196" y2="134" stroke="#e2dfd7" stroke-width="1"/>
+            <line class="sa-draw" pathLength="1" style="animation-delay:1.90s" x1="216" y1="90" x2="214" y2="134" stroke="#e2dfd7" stroke-width="1"/>
+            <line class="sa-draw" pathLength="1" style="animation-delay:1.94s" x1="216" y1="90" x2="232" y2="134" stroke="#e2dfd7" stroke-width="1"/>
+            <line class="sa-draw" pathLength="1" style="animation-delay:1.98s" x1="268" y1="90" x2="250" y2="134" stroke="#e2dfd7" stroke-width="1"/>
+            <line class="sa-draw" pathLength="1" style="animation-delay:2.02s" x1="268" y1="90" x2="268" y2="134" stroke="#e2dfd7" stroke-width="1"/>
+            <line class="sa-draw" pathLength="1" style="animation-delay:2.06s" x1="268" y1="90" x2="286" y2="134" stroke="#e2dfd7" stroke-width="1"/>
+
+            <rect class="sa-pop" style="animation-delay:.05s" x="120" y="20" width="80" height="26" rx="2" fill="#eff3ef" stroke="#0f3b34" stroke-width="1"/>
+            <text class="sa-fade" style="animation-delay:.20s" x="160" y="37" font-size="10" fill="#0f3b34" text-anchor="middle" font-weight="600">1 位讲师</text>
+
+            <g>
+              <rect class="sa-pop" style="animation-delay:.70s" x="30" y="66" width="44" height="24" rx="2" fill="#ffffff" stroke="#cfd6d1"/>
+              <rect class="sa-pop" style="animation-delay:.80s" x="82" y="66" width="44" height="24" rx="2" fill="#ffffff" stroke="#cfd6d1"/>
+              <rect class="sa-pop" style="animation-delay:.90s" x="138" y="66" width="44" height="24" rx="2" fill="#ffffff" stroke="#cfd6d1"/>
+              <rect class="sa-pop" style="animation-delay:1.00s" x="194" y="66" width="44" height="24" rx="2" fill="#ffffff" stroke="#cfd6d1"/>
+              <rect class="sa-pop" style="animation-delay:1.10s" x="246" y="66" width="44" height="24" rx="2" fill="#ffffff" stroke="#cfd6d1"/>
+            </g>
+
+            <g fill="#cfd6d1">
+              <rect class="sa-fade" style="animation-delay:.82s" x="40" y="76" width="24" height="5" rx="2"/>
+              <rect class="sa-fade" style="animation-delay:.92s" x="92" y="76" width="24" height="5" rx="2"/>
+              <rect class="sa-fade" style="animation-delay:1.02s" x="148" y="76" width="24" height="5" rx="2"/>
+              <rect class="sa-fade" style="animation-delay:1.12s" x="204" y="76" width="24" height="5" rx="2"/>
+              <rect class="sa-fade" style="animation-delay:1.22s" x="256" y="76" width="24" height="5" rx="2"/>
+            </g>
+
+            <g fill="#0f3b34" opacity="0.7">
+              <circle class="sa-pop" style="animation-delay:1.30s" cx="34" cy="138" r="4"/>
+              <circle class="sa-pop" style="animation-delay:1.34s" cx="52" cy="138" r="4"/>
+              <circle class="sa-pop" style="animation-delay:1.38s" cx="70" cy="138" r="4"/>
+              <circle class="sa-pop" style="animation-delay:1.42s" cx="88" cy="138" r="4"/>
+              <circle class="sa-pop" style="animation-delay:1.46s" cx="106" cy="138" r="4"/>
+              <circle class="sa-pop" style="animation-delay:1.50s" cx="124" cy="138" r="4"/>
+              <circle class="sa-pop" style="animation-delay:1.54s" cx="142" cy="138" r="4"/>
+              <circle class="sa-pop" style="animation-delay:1.58s" cx="160" cy="138" r="4"/>
+              <circle class="sa-pop" style="animation-delay:1.62s" cx="178" cy="138" r="4"/>
+              <circle class="sa-pop" style="animation-delay:1.66s" cx="196" cy="138" r="4"/>
+              <circle class="sa-pop" style="animation-delay:1.70s" cx="214" cy="138" r="4"/>
+              <circle class="sa-pop" style="animation-delay:1.74s" cx="232" cy="138" r="4"/>
+              <circle class="sa-pop" style="animation-delay:1.78s" cx="250" cy="138" r="4"/>
+              <circle class="sa-pop" style="animation-delay:1.82s" cx="268" cy="138" r="4"/>
+              <circle class="sa-pop" style="animation-delay:1.86s" cx="286" cy="138" r="4"/>
+            </g>
+
+            <g class="sa-fade" style="animation-delay:2.10s" font-size="9" fill="#8a938e">
+              <text x="160" y="16" text-anchor="middle">你</text>
+              <text x="160" y="166" text-anchor="middle">学员回企业后继续讲</text>
+            </g>
+          </svg>
+          <p class="pm-cap">示意 · 1 位讲师，一期 3 到 5 家企业，学员回企业后继续讲</p>
+        </div>
+        <div class="pm-body">
+          <p class="pm-stage">第三档 · 给复制能力</p>
+          <h3>企业内训师认证</h3>
+          <p class="pm-for">适合要把内部培养接过去的中大型企业。</p>
+          <dl>
+            <dt>交付</dt>
+            <dd>3 天集训、考核、授权教材、讲师年审，另加一次结业汇报录像</dd>
+            <dt>开班</dt>
+            <dd>一次 3 到 5 家企业，每家 2 到 3 人</dd>
+            <dt>价格</dt>
+            <dd>15 万到 25 万元每家</dd>
+          </dl>
+          <p class="pm-foot">一次交付，多家分摊。教材按年锁定版本，讲师每年复训考核，防止授权出去走样。</p>
+          <a class="pm-link" href="mailto:di3zongdui@163.com?subject=%E5%86%85%E8%AE%AD%E5%B8%88%E8%AE%A4%E8%AF%81%E7%99%BB%E8%AE%B0">登记下一期开班</a>
+        </div>
+      </article>
+
+      <article class="pm">
+        <div class="pm-fig">
+          <svg viewBox="0 0 320 176" role="img" aria-label="90 天陪跑示意：十二周推进节奏，每月一次现场">
+            <g stroke="#e2dfd7" stroke-width="1" fill="none">
+              <path d="M14 64 L14 58 L106 58 L106 64"/>
+              <path d="M110 64 L110 58 L202 58 L202 64"/>
+              <path d="M206 64 L206 58 L298 58 L298 64"/>
+            </g>
+            <g font-size="8" fill="#8a938e" text-anchor="middle">
+              <text x="60" y="52">第 1 月</text>
+              <text x="156" y="52">第 2 月</text>
+              <text x="252" y="52">第 3 月</text>
+            </g>
+            <g fill="#0f3b34" opacity="0.85">
+              <rect class="sa-pop" style="animation-delay:.05s" x="14" y="76" width="20" height="22" rx="1"/>
+              <rect class="sa-pop" style="animation-delay:.21s" x="38" y="76" width="20" height="22" rx="1"/>
+              <rect class="sa-pop" style="animation-delay:.37s" x="62" y="76" width="20" height="22" rx="1"/>
+              <rect class="sa-pop" style="animation-delay:.53s" x="86" y="76" width="20" height="22" rx="1"/>
+              <rect class="sa-pop" style="animation-delay:.69s" x="110" y="76" width="20" height="22" rx="1"/>
+              <rect class="sa-pop" style="animation-delay:.85s" x="134" y="76" width="20" height="22" rx="1"/>
+              <rect class="sa-pop" style="animation-delay:1.01s" x="158" y="76" width="20" height="22" rx="1"/>
+              <rect class="sa-pop" style="animation-delay:1.17s" x="182" y="76" width="20" height="22" rx="1"/>
+              <rect class="sa-pop" style="animation-delay:1.33s" x="206" y="76" width="20" height="22" rx="1"/>
+              <rect class="sa-pop" style="animation-delay:1.49s" x="230" y="76" width="20" height="22" rx="1"/>
+              <rect class="sa-pop" style="animation-delay:1.65s" x="254" y="76" width="20" height="22" rx="1"/>
+              <rect class="sa-pop" style="animation-delay:1.81s" x="278" y="76" width="20" height="22" rx="1"/>
+            </g>
+            <g class="sa-fade" style="animation-delay:2.10s" font-size="9" fill="#8a938e">
+              <text x="14" y="126">周一线上 · 周内验收</text>
+              <text x="298" y="126" text-anchor="end">每月一次现场</text>
+              <text x="160" y="156" font-size="13" fill="#0f3b34" text-anchor="middle" font-weight="600">90 天 · 12 周</text>
+            </g>
+          </svg>
+          <p class="pm-cap">示意 · 十二周推进节奏</p>
+        </div>
+        <div class="pm-body">
+          <p class="pm-stage">第四档 · 改管理动作</p>
+          <h3>90 天陪跑</h3>
+          <p class="pm-for">适合工具已经在用、管理动作没跟上的团队。</p>
+          <dl>
+            <dt>交付</dt>
+            <dd>每月一次现场、每周一次线上、五件事逐条验收、季度复盘</dd>
+            <dt>周期</dt>
+            <dd>90 天</dd>
+            <dt>价格</dt>
+            <dd>80 万到 180 万元，按范围确定</dd>
+          </dl>
+          <p class="pm-foot">不新增工具。改的是派活、验收、考核这三处，改完要能在下一个绩效周期里看见。</p>
+          <a class="pm-link" href="mailto:di3zongdui@163.com?subject=AI%20%E7%AE%A1%E7%90%86%E8%80%85%2090%20%E5%A4%A9%E9%99%AA%E8%B7%91">约一次面谈</a>
+        </div>
+      </article>
+
     </div>
 
-    <div class="contact-line">
-      <a href="mailto:di3zongdui@163.com">di3zongdui@163.com</a>
-      <a href="https://global.wearecgl.com/adviser/detail/243">CGL 官网档案</a>
-      <a href="https://www.linkedin.com/in/gg6561771/">LinkedIn</a>
-      <a href="https://github.com/di3zongdui">GitHub</a>
+    <p class="disclaimer">价格区间为公开参考口径，实际按企业范围与交付内容确定。四档可以单独进入，也可以依次推进；同时启动两档以上的情况少见，通常不必要。</p>
+
+    <div class="contact-strip">
+      <div>
+        <p class="contact-label">直接联系</p>
+        <p class="contact-note">说明企业规模、当前进展、想解决的问题。三个工作日内回复。</p>
+      </div>
+      <div class="contact-line">
+        <a href="mailto:di3zongdui@163.com">di3zongdui@163.com</a>
+        <a href="https://global.wearecgl.com/adviser/detail/243">CGL 官网档案</a>
+        <a href="https://www.linkedin.com/in/gg6561771/">LinkedIn</a>
+        <a href="https://github.com/di3zongdui">GitHub</a>
+      </div>
     </div>
   </div>
 </section>

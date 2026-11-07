@@ -109,4 +109,4 @@ CGL 的 AI Office 由我分管。定方向、分预算、配人、看结果，�
 
 ---
 
-<p><a href="/#services">看三种合作方式</a> · <a href="/">返回首页</a></p>
+<p><a href="/#services">看合作方式</a> · <a href="/">返回首页</a></p>

@@ -336,6 +336,175 @@ h2 {
   flex-wrap: wrap;
 }
 
+/* ---- 合作方式：四档产品 ---- */
+
+.pm-list { border-top: 1px solid var(--line); }
+
+.pm {
+  display: grid;
+  grid-template-columns: 340px 1fr;
+  gap: 56px;
+  padding: 44px 0;
+  border-bottom: 1px solid var(--line);
+}
+
+.pm-fig {
+  background: var(--paper);
+  border: 1px solid var(--line);
+  padding: 22px 20px 16px;
+  align-self: start;
+}
+
+.pm-fig svg { width: 100%; height: auto; display: block; }
+
+.pm-cap {
+  margin-top: 14px;
+  padding-top: 12px;
+  border-top: 1px solid var(--line);
+  font-size: 11px;
+  color: var(--faint);
+  letter-spacing: 0.04em;
+}
+
+.pm-stage {
+  font-size: 11px;
+  letter-spacing: 0.12em;
+  color: var(--accent-2);
+  margin-bottom: 10px;
+}
+
+.pm-body h3 {
+  font-size: 21px;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  margin-bottom: 8px;
+}
+
+.pm-for { font-size: 14px; color: var(--muted); margin-bottom: 20px; }
+
+.pm-body dl { font-size: 14px; line-height: 1.75; }
+.pm-body dt { font-size: 11px; color: var(--faint); letter-spacing: 0.08em; margin-top: 14px; }
+.pm-body dt:first-child { margin-top: 0; }
+.pm-body dd { color: var(--ink); margin-top: 3px; }
+
+.pm-foot {
+  margin-top: 18px;
+  padding-top: 16px;
+  border-top: 1px solid var(--line);
+  font-size: 13px;
+  color: var(--muted);
+  line-height: 1.8;
+}
+
+.pm-link {
+  display: inline-block;
+  margin-top: 16px;
+  font-size: 13px;
+  color: var(--accent);
+  border-bottom: 1px solid #b9c9c1;
+  padding-bottom: 1px;
+}
+.pm-link:hover { border-color: var(--accent); }
+
+.contact-strip {
+  margin-top: 40px;
+  padding: 26px 28px;
+  background: var(--soft);
+  border: 1px solid #dbe4de;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 28px;
+  align-items: center;
+}
+
+.contact-label {
+  font-size: 11px;
+  letter-spacing: 0.12em;
+  color: var(--accent-2);
+  margin-bottom: 6px;
+}
+.contact-note { font-size: 14px; color: var(--muted); }
+.contact-strip .contact-line { margin-top: 0; justify-content: flex-end; }
+
+/* ---- 产品示意动画 ---- */
+
+.pm-fig svg text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif; }
+
+.sa-bar {
+  transform-box: fill-box;
+  transform-origin: left center;
+  animation: saBar 6.4s cubic-bezier(0.22, 0.61, 0.36, 1) infinite;
+}
+
+.sa-pop {
+  transform-box: fill-box;
+  transform-origin: center;
+  animation: saPop 6.4s cubic-bezier(0.22, 0.61, 0.36, 1) infinite;
+}
+
+.sa-fade { animation: saFade 6.4s ease infinite; }
+
+.sa-draw {
+  stroke-dasharray: 1;
+  stroke-dashoffset: 0;
+  animation: saDraw 6.4s ease infinite;
+}
+
+.sa-chip { animation: saChip 6.4s ease infinite; }
+.sa-chip-bar { animation: saChipBar 6.4s ease infinite; }
+
+@keyframes saBar {
+  0%   { transform: scaleX(0); opacity: 0; }
+  9%   { transform: scaleX(1); opacity: 1; }
+  84%  { transform: scaleX(1); opacity: 1; }
+  93%  { transform: scaleX(1); opacity: 0; }
+  100% { transform: scaleX(1); opacity: 0; }
+}
+
+@keyframes saPop {
+  0%   { transform: scale(0.55); opacity: 0; }
+  9%   { transform: scale(1); opacity: 1; }
+  84%  { transform: scale(1); opacity: 1; }
+  93%  { transform: scale(1); opacity: 0; }
+  100% { transform: scale(1); opacity: 0; }
+}
+
+@keyframes saFade {
+  0%   { opacity: 0; }
+  6%   { opacity: 1; }
+  84%  { opacity: 1; }
+  93%  { opacity: 0; }
+  100% { opacity: 0; }
+}
+
+@keyframes saDraw {
+  0%   { stroke-dashoffset: 1; opacity: 1; }
+  12%  { stroke-dashoffset: 0; opacity: 1; }
+  84%  { stroke-dashoffset: 0; opacity: 1; }
+  93%  { stroke-dashoffset: 0; opacity: 0; }
+  100% { stroke-dashoffset: 0; opacity: 0; }
+}
+
+@keyframes saChip {
+  0%   { stroke: #e2dfd7; fill: #ffffff; opacity: 1; }
+  10%  { stroke: #0f3b34; fill: #eff3ef; opacity: 1; }
+  84%  { stroke: #0f3b34; fill: #eff3ef; opacity: 1; }
+  92%  { stroke: #0f3b34; fill: #eff3ef; opacity: 0; }
+  100% { stroke: #e2dfd7; fill: #ffffff; opacity: 0; }
+}
+
+@keyframes saChipBar {
+  0%   { fill: #cfd6d1; }
+  10%  { fill: #0f3b34; }
+  84%  { fill: #0f3b34; }
+  92%  { fill: #0f3b34; }
+  100% { fill: #cfd6d1; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .sa-bar, .sa-pop, .sa-fade, .sa-draw, .sa-chip, .sa-chip-bar { animation: none; }
+}
+
 @media (max-width: 900px) {
   .hero-grid { grid-template-columns: 1fr; gap: 36px; }
   .hero-photo { width: 160px; height: 200px; order: -1; }
@@ -346,6 +515,10 @@ h2 {
   .cta-grid { grid-template-columns: 1fr; }
   .nav-links { display: none; }
   .proof-item { grid-template-columns: 1fr; gap: 6px; }
+  .pm { grid-template-columns: 1fr; gap: 28px; padding: 36px 0; }
+  .pm-fig { max-width: 420px; }
+  .contact-strip { grid-template-columns: 1fr; gap: 18px; }
+  .contact-strip .contact-line { justify-content: flex-start; }
 }
 
 @media (max-width: 520px) {
