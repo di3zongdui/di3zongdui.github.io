@@ -72,7 +72,7 @@ Internal figures, updated 2026 — not audited, not a market ranking:
 | Period | Role |
 |---|---|
 | 2019 – present | Senior Vice President, Strategy Development and Investment · Chief Strategy Officer, AI Office — CGL Group (上海德筑企业管理有限公司) |
-| 2015 – 2019 | Independent investor — fintech, cloud robotics, enterprise services |
+| 2015 – 2019 | Investment Partner, iResearch Capital — fintech, cloud robotics, enterprise services |
 | 2010 – 2015 | Vice President, Career International (科锐国际, 300662.SZ) |
 | 2008 – 2010 | Vice President, 51job (前程无忧, NASDAQ: JOBS) — HR outsourcing |
 | 2005 – 2008 | Senior Manager, Hewlett-Packard — automotive, manufacturing and semiconductor, APAC |
