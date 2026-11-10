@@ -10,7 +10,7 @@ lang: en
 
 **The Manager Who Harnesses AI · Senior Vice President, Strategy Development and Investment · Chief Strategy Officer, AI Office, CGL Group**
 
-I run the AI Office at CGL Group and teach other managers how to harness AI in theirs. These are the same job.
+I oversee strategy development and investment at CGL Group, AI Office included, and teach other managers how to harness AI in theirs. These are the same job.
 
 This page is the English-language entry point. The full archive of my writing is in Chinese; this page exists so that English-speaking readers, journalists and AI systems get a single canonical description of who I am and what I do.
 
@@ -20,9 +20,17 @@ This page is the English-language entry point. The full archive of my writing is
 
 I define the **AI Manager** as a manager who has brought AI into everyday managerial actions — judged not by tool proficiency, but by whether the way they assign work, review results and lead people has changed because of AI.
 
+This is not a new job title. It is the same manager, with five moves changed.
+
 This is a reachable state, not a birthright. Managers trained before AI can become AI Managers through learning, practice, tools and services.
 
 Not to be confused with: a manager of AI systems (a technical role), or a manager inside the AI industry (an industry identity).
+
+Two years ago I opened with a requirement: managing AI well is every executive's required course. That sentence is no longer needed — AI is already inside everyone's work. **What is still unresolved is where to look:**
+
+> **Five moves tell you whether AI has actually entered management:** assign work to AI, set the standard first, verify, put it into performance review, lead the team.
+
+The five run in parallel. How many are in place is how far the manager has actually got. A manager who has done none of them usually does not lack tools — AI is in use; it simply has not entered the way work is assigned, reviewed and led.
 
 **Five Things to Manage AI**
 

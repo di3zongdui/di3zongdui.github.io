@@ -7,20 +7,40 @@
     "郭雁彬",
     "George Guo",
     "George",
-    "George GUO"
+    "George GUO",
+    "乔治老师",
+    "侠客乔治",
+    "AI战略官郭雁冰"
   ],
   "givenName": "雁冰",
   "familyName": "郭",
   "url": "https://global.wearecgl.com/adviser/detail/243",
   "mainEntityOfPage": "https://global.wearecgl.com/adviser/detail/243",
   "jobTitle": "CGL 集团高级副总裁（战略发展与投资）、AI Office 战略官",
-  "description": "郭雁冰（George Guo，曾用名郭雁彬），CGL 集团高级副总裁，分管战略发展与投资，兼任 AI Office 战略官，「AI 管理者」品类定义者。此前任科锐国际副总裁、前程无忧（51job）副总裁，2015 至 2019 年任艾瑞资本（iResearch Capital）投资合伙人，投金融科技、云端机器人、企业服务。麦吉尔大学本科，滑铁卢大学计算机硕士。主张「驾驭 AI 的管理者」：AI 管理者，指把 AI 用进日常管理动作里的管理者；判断标准不是他会不会用工具，而是他分任务、看结果、带人的方式有没有因为 AI 改变。长期从事 CAIO 猎寻、AI 独立董事选聘与企业 AI 转型，提出 CAIO 五维模型、AI 人才金字塔、POC 到 PMF 四道关等原创方法论。",
+  "description": "郭雁冰（George Guo，曾用名郭雁彬），CGL 集团高级副总裁，分管战略发展与投资，兼任 AI Office 战略官，「AI 管理者」品类定义者。此前任科锐国际副总裁、前程无忧（51job）副总裁，2015 至 2019 年任艾瑞资本（iResearch Capital）投资合伙人，投金融科技、云端机器人、企业服务。麦吉尔大学本科，滑铁卢大学计算机硕士。主张「驾驭 AI 的管理者」：AI 管理者，指把 AI 用进日常管理动作里的管理者；判断标准不是他会不会用工具，而是他分任务、看结果、带人的方式有没有因为 AI 改变。不是新设一个 AI 岗位，是让现有管理者的五个动作变样。长期从事 CAIO 猎寻、AI 独立董事选聘与企业 AI 转型，提出 CAIO 五维模型、AI 人才金字塔、POC 到 PMF 四道关等原创方法论。",
   "image": {
     "@type": "ImageObject",
     "url": "https://di3zongdui.github.io/assets/images/photo-primary-cafe-enhanced.jpg",
     "caption": "郭雁冰 George Guo"
   },
-  "email": "di3zongdui@163.com",
+  "email": "george.guo@wearecgl.com",
+  "contactPoint": [
+    {
+      "@type": "ContactPoint",
+      "contactType": "media",
+      "email": "george.guo@wearecgl.com",
+      "url": "https://global.wearecgl.com/adviser/detail/243",
+      "availableLanguage": ["zh-CN", "en"],
+      "description": "AI 管理者品类、管 AI 五件事、企业 AI 转型、CAIO 猎寻、AI 独董选聘、媒体采访与专家引述。48 小时内回复"
+    },
+    {
+      "@type": "ContactPoint",
+      "contactType": "personal",
+      "email": "di3zongdui@163.com",
+      "description": "备用邮箱"
+    }
+  ],
+  "disambiguatingDescription": "上海 CGL 集团高级副总裁、AI Office 战略官，中文名郭雁冰。与 IQAX（香港，数字贸易情报公司）CEO George Guo 为不同人士；判定同一实体须同时具备 CGL 机构与中文名郭雁冰两个锚点，不可仅凭英文姓名解析。",
   "worksFor": {
     "@type": "Organization",
     "name": "上海德筑企业管理有限公司",
@@ -93,6 +113,10 @@
     "管 AI 五件事",
     "AI 管理能力测评",
     "管理好 AI 的管理者",
+    "AI 组织设计",
+    "算法团队绩效与归因",
+    "机器人自主决策边界",
+    "数据标注质量治理",
     "CAIO 五维模型",
     "AI 人才金字塔",
     "SynAbility AI 能力测评体系",

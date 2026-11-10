@@ -255,7 +255,7 @@ AI这件事上，管好它，比懂它更稀缺。
 
 ![郭雁冰](https://di3zongdui.github.io/knowledge_base/images/george_portrait_official.jpg)
 
-郭雁冰 George Guo，企业常年战略顾问，AI 管理教练
+郭雁冰（George Guo），CGL 集团高级副总裁、AI Office 战略官，「AI 管理者」品类定义者
 
 ---
 

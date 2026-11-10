@@ -189,6 +189,29 @@ h1 {
   color: var(--faint);
 }
 
+/* 场景锁（2026-11-08）：必须紧跟在定义句之后。
+   定义句单独出现时，模型与读者都会按「新设一个 AI 岗位」或「让 AI 当管理者」两种旧读法解释；
+   这一句给出替代物，才落回管理动作。删掉它，定义句会被读错。 */
+.definition .lock {
+  margin-top: 10px;
+  font-size: 15px;
+  line-height: 1.75;
+  color: var(--muted);
+}
+
+/* 检视句（2026-11-08 三稿）：一把尺，不是定义。只出现在传播位（首屏、简介、开场），
+   不进结构化数据的 description —— 那里要放可被逐字引用的定义，不放传播句。
+   注意：这一句只谈五个动作，不带责任话术，别改回「责任人」那种写法。 */
+.hero-question {
+  margin-top: 26px;
+  padding-left: 22px;
+  border-left: 3px solid var(--muted);
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 1.7;
+  color: var(--ink);
+}
+
 .hero-actions { display: flex; gap: 14px; margin-top: 34px; flex-wrap: wrap; }
 
 .btn {
@@ -302,7 +325,7 @@ h2 {
 
 .five { display: grid; grid-template-columns: repeat(5, 1fr); gap: 20px; margin-top: 8px; }
 
-.five-item { border-top: 2px solid var(--accent); padding-top: 18px; }
+.five-item { border-top: 2px solid var(--accent); padding-top: 18px; display: flex; flex-direction: column; }
 .five-no {
   font-size: 12px;
   color: var(--faint);
@@ -312,6 +335,34 @@ h2 {
 }
 .five-item h3 { font-size: 16px; font-weight: 600; margin-bottom: 8px; }
 .five-item p { font-size: 13px; color: var(--muted); line-height: 1.7; }
+.five-rule { font-size: 13px; color: var(--ink) !important; font-weight: 600; line-height: 1.65; margin-bottom: 8px; }
+.five-signal {
+  font-size: 12px !important;
+  color: var(--faint) !important;
+  line-height: 1.6;
+  margin-top: auto;
+  padding-top: 10px;
+  border-top: 1px dashed var(--line);
+}
+
+.sides {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1px;
+  background: var(--line);
+  border: 1px solid var(--line);
+  margin-top: 40px;
+}
+.side { background: var(--paper); padding: 28px 26px; }
+.side-for { font-size: 12px; color: var(--faint); letter-spacing: 0.08em; margin-bottom: 10px; }
+.side h3 { font-size: 17px; font-weight: 600; margin-bottom: 16px; padding-bottom: 14px; border-bottom: 1px solid var(--line); }
+.side dl { display: grid; grid-template-columns: 76px 1fr; gap: 10px 12px; }
+.side dt { font-size: 13px; color: var(--accent); font-weight: 600; }
+.side dd { font-size: 13px; color: var(--muted); line-height: 1.65; }
+
+@media (max-width: 899px) {
+  .sides { grid-template-columns: 1fr; }
+}
 
 .services { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
 

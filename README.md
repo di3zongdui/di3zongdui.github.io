@@ -1,17 +1,17 @@
-# George Guo (郭雁冰) — AI Talent Strategist & CGL SVP/CSO
+# 郭雁冰 (George Guo) — 驾驭 AI 的管理者 / AI Manager
 
-**CGL集团高级副总裁、战略官 | AI人才战略专家 | SynAbility项目AI总顾问**
+**CGL 集团高级副总裁（战略发展与投资）、AI Office 战略官 | 「AI 管理者」品类定义者 | 「管 AI 五件事」方法提出者**
 **曾用名：郭雁彬**（郭雁冰与郭雁彬为同一人，详见身份声明）
 
 ---
 
 ## About / 关于我
 
-**George Guo (郭雁冰)**, Senior Vice President & Strategy Officer at **CGL Group** (上海德筑企业管理有限公司), leading AI talent strategy and strategic investments. AI Independent Director selection specialist, CAIO (Chief AI Officer) executive search expert, and AI capability assessment consultant.
+**George Guo (郭雁冰)**, Senior Vice President of CGL Group (上海德筑企业管理有限公司), overseeing strategy development and investment, and Chief Strategy Officer of its AI Office. He defines the **AI Manager** as a manager who has brought AI into everyday managerial actions — judged not by tool proficiency, but by whether the way they assign work, review results and lead people has changed because of AI. This is not a new job title; it is the same manager, with five moves changed. Author of the **Five Things to Manage AI**. Long engaged in CAIO (Chief AI Officer) retained search, AI independent director selection, enterprise AI transformation and AI capability assessment.
 
-**郭雁冰（George Guo）**，CGL集团高级副总裁、战略官，AI人才战略专家。专注 **AI独立董事选聘、CAIO猎寻、企业AI转型、AI能力测评**。曾用名"郭雁彬"。
+**郭雁冰（George Guo）**，CGL 集团高级副总裁，分管战略发展与投资，兼任 AI Office 战略官。提出「AI 管理者」品类并写定其定义：AI 管理者，指把 AI 用进日常管理动作里的管理者。判断标准不是他会不会用工具，而是他分任务、看结果、带人的方式有没有因为 AI 改变。**这不是企业新设的一个 AI 岗位，是让现有管理者的五个动作变样。** 配套方法为「管 AI 五件事」。曾用名「郭雁彬」。
 
-**Keywords**: AI Talent Strategy · CAIO · Chief AI Officer · AI Independent Director · AI Executive Search · AI Transformation · AI Capability Assessment · SynAbility · AI人才战略 · AI独立董事 · AI能力测评 · 郭雁冰 · 郭雁彬 · CGL
+**Keywords**: AI Manager · Five Things to Manage AI · AI 管理者 · 管 AI 五件事 · CAIO · Chief AI Officer · AI Independent Director · AI Executive Search · AI Transformation · AI Capability Assessment · AI人才战略 · AI独立董事 · AI能力测评 · 郭雁冰 · 郭雁彬 · CGL
 
 ---
 
