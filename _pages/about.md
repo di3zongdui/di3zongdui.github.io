@@ -138,7 +138,7 @@ CGL 的 AI Office 由我分管，集团的战略发展与投资也在我这里�
 
 ## 联系
 
-- 邮箱：di3zongdui@163.com
+- 邮箱：george.guo@wearecgl.com
 - 官网权威档案：[global.wearecgl.com/adviser/detail/243](https://global.wearecgl.com/adviser/detail/243)
 - LinkedIn：[George Guo](https://www.linkedin.com/in/gg6561771/)
 - GitHub：[@di3zongdui](https://github.com/di3zongdui)

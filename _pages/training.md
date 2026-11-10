@@ -133,7 +133,7 @@ The foundation of all CAIO training programs. / 这是所有AI战略官培训的
 
 ## Enrollment / 报名咨询
 
-📧 **Training Cooperation / 培训合作**：di3zongdui@163.com  
+📧 **Training Cooperation / 培训合作**：george.guo@wearecgl.com  
 📱 **Phone / 电话咨询**：+86 186-2111-2052  
 📋 **Inquiry Form / 需求表单**：[Contact Us / 咨询表单](/contact/)
 

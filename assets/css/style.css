@@ -808,3 +808,124 @@ img {
     grid-template-columns: 1fr;
   }
 }
+
+/* ===================================
+   问答页 /answers/
+   用途：事实型问答，供读者、媒体与 AI 系统取用
+   设计意图：问题与答案视觉上必须分开，答案段落行长控制在可读区间
+   =================================== */
+.qa-page {
+  max-width: 760px;
+}
+
+.qa-page h1 {
+  margin-bottom: var(--spacing-lg);
+}
+
+.qa-page h2 {
+  margin-top: var(--spacing-2xl);
+  padding-top: var(--spacing-lg);
+  border-top: 1px solid var(--border-color);
+  font-size: var(--font-size-2xl);
+}
+
+.qa-page h3 {
+  margin-top: var(--spacing-xl);
+  margin-bottom: var(--spacing-sm);
+  font-size: var(--font-size-lg);
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+.qa-page p {
+  line-height: 1.85;
+  color: var(--text-primary);
+}
+
+.qa-page code {
+  background-color: var(--bg-tertiary);
+  padding: 0.1em 0.35em;
+  border-radius: 3px;
+  font-size: 0.92em;
+}
+
+.qa-meta,
+.qa-footer {
+  background-color: var(--bg-secondary);
+  border: 1px solid var(--border-color);
+  border-radius: 6px;
+  padding: var(--spacing-lg);
+  margin: var(--spacing-xl) 0;
+  font-size: var(--font-size-sm);
+}
+
+.qa-meta p,
+.qa-footer p {
+  margin: 0 0 var(--spacing-sm);
+  color: var(--text-secondary);
+  line-height: 1.75;
+}
+
+.qa-meta p:last-child,
+.qa-footer p:last-child {
+  margin-bottom: 0;
+}
+
+.qa-footer {
+  margin-top: var(--spacing-2xl);
+}
+
+/* 问答页目录 */
+.qa-toc {
+  border-left: 3px solid var(--border-color);
+  padding-left: var(--spacing-lg);
+  margin: var(--spacing-xl) 0;
+  font-size: var(--font-size-sm);
+}
+
+.qa-toc-title {
+  font-weight: 600;
+  color: var(--text-secondary);
+  margin-bottom: var(--spacing-sm);
+  letter-spacing: 0.05em;
+}
+
+.qa-toc ol {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.qa-toc li {
+  margin-bottom: 0.35em;
+  color: var(--text-light);
+  line-height: 1.7;
+}
+
+.qa-toc a {
+  color: var(--text-primary);
+  text-decoration: none;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.qa-toc a:hover {
+  color: var(--primary-color);
+  border-bottom-color: var(--primary-color);
+}
+
+/* 问答页：长 URL 与邮箱在窄屏不得撑宽页面 */
+.qa-page,
+.qa-page p,
+.qa-page li {
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}
+
+.qa-page a {
+  overflow-wrap: anywhere;
+}
+
+.qa-page table {
+  display: block;
+  overflow-x: auto;
+}

@@ -121,7 +121,6 @@ The Chinese name 郭雁冰 has historically also appeared as 郭雁彬. Both ref
 ## Contact
 
 - Business: george.guo@wearecgl.com
-- Media and training: di3zongdui@163.com
 - LinkedIn: [linkedin.com/in/gg6561771](https://www.linkedin.com/in/gg6561771/)
 
 <center>

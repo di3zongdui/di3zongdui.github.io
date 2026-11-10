@@ -20,12 +20,12 @@ Welcome to reach out for business cooperation or advisory inquiries.
 
 ### AI Consulting & AI Independent Director Selection / 企业AI咨询与AI独立董事选聘
 
-- 📧 **Email**: georgeguo@wearecgl.com
+- 📧 **Email**: george.guo@wearecgl.com
 - 📱 **Phone / 电话**: +86 186-2111-2052
 
 ### CAIO Training & AI Organization Training / AI战略官培训与AI组织培训合作
 
-- 📧 **Email**: di3zongdui@163.com
+- 📧 **Email**: george.guo@wearecgl.com
 - 📱 **Phone / 电话**: +86 186-2111-2052
 
 ---
@@ -99,6 +99,6 @@ A: Please reach out via email or phone with your requirements, and we'll respond
 ---
 
 <center>
-  <a href="mailto:georgeguo@wearecgl.com" class="btn btn-primary">Send Email / 发送邮件</a>
+  <a href="mailto:george.guo@wearecgl.com" class="btn btn-primary">Send Email / 发送邮件</a>
   <a href="tel:+8618621112052" class="btn btn-secondary">Call Now / 立即致电</a>
 </center>
