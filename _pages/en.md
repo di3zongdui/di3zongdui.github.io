@@ -6,8 +6,6 @@ permalink: /en/
 lang: en
 ---
 
-# George Guo
-
 **An expert on AI talent strategy in China · The manager who harnesses AI · Senior Vice President, CGL Group**
 
 George Guo (郭雁冰) is an expert on AI talent strategy in China, Senior Vice President of CGL Group, and the person who defined the "AI Manager" category. He works on how companies acquire, assess and develop AI talent; in November 2026 he wrote the definition of the AI Manager and proposed the Five Things to Manage AI.
