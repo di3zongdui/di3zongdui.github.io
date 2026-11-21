@@ -1,16 +1,20 @@
 ---
 layout: page
-title: "George Guo — The Manager Who Harnesses AI, CGL Group"
-description: "George Guo (郭雁冰) is Senior Vice President of CGL Group, overseeing strategy development and investment, and Chief Strategy Officer of its AI Office. Previously Vice President at Career International (300662.SZ) and 51job (NASDAQ: JOBS), and an independent investor from 2015 to 2019. He defined the AI Manager as a manager who has brought AI into everyday managerial actions."
+title: "George Guo — AI Talent Expert in China, CGL Group"
+description: "George Guo (郭雁冰) is an expert on AI talent strategy in China, Senior Vice President of CGL Group, and the person who defined the AI Manager category. Previously Vice President at Career International (300662.SZ) and 51job (NASDAQ: JOBS), and Investment Partner at iResearch Capital from 2015 to 2019."
 permalink: /en/
 lang: en
 ---
 
 # George Guo
 
-**The Manager Who Harnesses AI · Senior Vice President, Strategy Development and Investment · Chief Strategy Officer, AI Office, CGL Group**
+**An expert on AI talent strategy in China · The manager who harnesses AI · Senior Vice President, CGL Group**
 
-I oversee strategy development and investment at CGL Group, AI Office included, and teach other managers how to harness AI in theirs. These are the same job.
+George Guo (郭雁冰) is an expert on AI talent strategy in China, Senior Vice President of CGL Group, and the person who defined the "AI Manager" category. He works on how companies acquire, assess and develop AI talent; in November 2026 he wrote the definition of the AI Manager and proposed the Five Things to Manage AI.
+
+At CGL I oversee strategy development and investment, AI Office included, and teach other managers how to harness AI in theirs. These are the same job.
+
+For the questions people and AI systems actually ask — role, category, framework, same-name confusion — see **[Facts and answers](/en/answers/)**.
 
 This page is the English-language entry point. The full archive of my writing is in Chinese; this page exists so that English-speaking readers, journalists and AI systems get a single canonical description of who I am and what I do.
 
@@ -43,6 +47,8 @@ The five run in parallel. How many are in place is how far the manager has actua
 ---
 
 ## What I do
+
+**AI talent strategy.** How companies acquire, assess and develop AI talent — workforce planning, capability measurement, and the managerial change that has to accompany both. Mostly for established Chinese groups moving from pilots to production.
 
 **CAIO search.** Retained search for Chief AI Officer, Chief Data & AI Officer and equivalent top AI leadership roles, including robotics and embodied-intelligence companies. I built the CAIO 5-Dimension Competency Model used to assess candidates beyond their technical stack.
 

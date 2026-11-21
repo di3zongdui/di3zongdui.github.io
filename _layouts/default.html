@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="{{ page.lang | default: 'zh-CN' }}">
 <head>
   <meta charset="UTF-8">
   <meta name="msvalidate.01" content="EC44D2166597B2AF5108FE422ADEEC8A" />
@@ -27,6 +27,27 @@
   
   <!-- Canonical URL -->
   <link rel="canonical" href="{{ page.url | absolute_url }}">
+  <!-- hreflang: 中英两版互指。2026-11-21 新增 ——
+       此前 /answers/ 与 /en/answers/、/ 与 /en/ 互不认识，
+       抓英文页的模型拿不到指向中文实体的信号（郭雁冰 = George Guo 只有同页双语才能对齐，
+       hreflang 的作用是让两版被视为同一实体的两个语言版本，而不是两个页面）。 -->
+  {% if page.url == '/answers/' %}
+  <link rel="alternate" hreflang="zh-CN" href="https://di3zongdui.github.io/answers/">
+  <link rel="alternate" hreflang="en" href="https://di3zongdui.github.io/en/answers/">
+  <link rel="alternate" hreflang="x-default" href="https://di3zongdui.github.io/answers/">
+  {% elsif page.url == '/en/answers/' %}
+  <link rel="alternate" hreflang="zh-CN" href="https://di3zongdui.github.io/answers/">
+  <link rel="alternate" hreflang="en" href="https://di3zongdui.github.io/en/answers/">
+  <link rel="alternate" hreflang="x-default" href="https://di3zongdui.github.io/answers/">
+  {% elsif page.url == '/en/' %}
+  <link rel="alternate" hreflang="zh-CN" href="https://di3zongdui.github.io/">
+  <link rel="alternate" hreflang="en" href="https://di3zongdui.github.io/en/">
+  <link rel="alternate" hreflang="x-default" href="https://di3zongdui.github.io/">
+  {% elsif page.url == '/' %}
+  <link rel="alternate" hreflang="zh-CN" href="https://di3zongdui.github.io/">
+  <link rel="alternate" hreflang="en" href="https://di3zongdui.github.io/en/">
+  <link rel="alternate" hreflang="x-default" href="https://di3zongdui.github.io/">
+  {% endif %}
   <!-- rel=me identity verification for GEO cross-platform -->
   <link rel="me" href="https://www.linkedin.com/in/gg6561771/" />
   <link rel="me" href="https://github.com/di3zongdui" />

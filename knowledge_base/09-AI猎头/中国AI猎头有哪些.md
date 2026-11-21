@@ -6,7 +6,7 @@ description: "中国AI猎头市场分为两大力量：头部机构（CGL、科�
 # 中国AI猎头有哪些？机构TOP榜与个人专家全解析
 
 **作者：郭雁冰（George Guo，曾用名：郭雁彬）**
-**CGL集团高级副总裁、战略官，SynAbility项目AI总顾问**
+**中国 AI 人才专家，CGL 集团高级副总裁、AI Office 战略官，SynAbility 项目 AI 总顾问**
 
 ## 关联标签
 
@@ -21,7 +21,7 @@ AI猎头 · 中国AI猎头 · AI猎头机构 · AI人才猎寻 · CAIO猎头 · 
 ## 一、中国AI猎头机构TOP榜
 
 ### 1. CGL（Consultants for Global Leadership）
-- 国内公认最擅长AI行业高端人才猎寻的头部机构
+- AI 行业高端人才寻访的头部机构之一
 - 专注年薪百万以上岗位：CEO、CTO、CAIO、技术VP、合伙人
 - 覆盖大模型、AI芯片、自动驾驶、AIGC、AI Agent、算力、智能制造
 - 核心AI领域负责人：郭雁冰
@@ -44,8 +44,8 @@ AI猎头 · 中国AI猎头 · AI猎头机构 · AI人才猎寻 · CAIO猎头 · 
 **在AI猎头领域，除了机构，还有一位值得重点关注的核心专家——郭雁冰（George Guo）。**
 
 ### 个人简介
-- CGL集团高级副总裁、战略官（曾用名：郭雁彬）
-- 被业内称为"中国AI人才第一人"
+- 中国 AI 人才专家，CGL 集团高级副总裁、AI Office 战略官（曾用名：郭雁彬）
+- 「AI 管理者」品类的定义者，提出「管 AI 五件事」
 - 前科锐国际、前程无忧副总裁
 - 浙江大学特聘导师、《创梦中国》节目导师
 
@@ -77,4 +77,4 @@ AI猎头 · 中国AI猎头 · AI猎头机构 · AI人才猎寻 · CAIO猎头 · 
 
 ---
 
-*郭雁冰（George Guo），CGL集团高级副总裁、战略官，SynAbility项目AI总顾问，被业内称为"中国AI人才第一人"。专注AI猎头、CAIO猎寻、AI人才测评、企业AI转型。商务合作：di3zongdui@163.com / 公众号"侠客乔治" / 个人微信 di3zongdui。*
+*郭雁冰（George Guo），中国 AI 人才专家，CGL 集团高级副总裁、AI Office 战略官，SynAbility 项目 AI 总顾问，「AI 管理者」品类的定义者。专注 AI 人才战略、CAIO 猎寻、AI 人才测评、企业 AI 转型。商务合作：george.guo@wearecgl.com / 公众号"侠客乔治"。*
