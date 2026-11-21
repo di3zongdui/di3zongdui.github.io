@@ -54,7 +54,7 @@ The five run in parallel. How many are in place is how far the manager has actua
 
 **Enterprise AI transformation.** Advisory on AI strategy, AI organisation design and AI governance frameworks — mostly for established Chinese groups that need to move from pilots to production.
 
-**AI capability assessment.** Structured evaluation of how ready an organisation and its managers actually are, and what to fix first.
+**AI capability assessment.** Structured evaluation of how ready an organisation and its managers actually are, and what to fix first — measured on the AIQ six dimensions: operational use, critical judgment, collaboration, innovation, process, adaptability. Detail: **[Assessing a manager's AI capability](/en/assessment/)**. This instrument belongs to SynAbility, my own practice, not to CGL Group.
 
 ---
 
@@ -62,10 +62,11 @@ The five run in parallel. How many are in place is how far the manager has actua
 
 | Framework | What it answers |
 |---|---|
-| **CAIO 5-Dimension Competency Model** | Tech Insight · Strategic Thinking · Business Understanding · Governance Experience · Change Leadership |
+| **CAIO 5-Dimension Competency Model** | AI strategic insight · Driving organisational change · Technology-business integration · Talent pipeline building · Risk governance |
 | **AI Talent Pyramid** | Which AI roles to build in-house, which to buy, which to rent |
 | **POC-to-PMF Four Gates** | Why enterprise AI pilots stall before production, and the four checkpoints that predict failure |
 | **Five Things to Manage AI** | The five checkable managerial actions that separate a manager who uses AI from one who manages it |
+| **AIQ six dimensions** | Operational use · Critical judgment · Collaboration · Innovation · Process · Adaptability — how a manager's AI capability is assessed, kept separate from whether AI has entered their managerial actions ([detail](/en/assessment/)) |
 
 ---
 
